@@ -3,7 +3,7 @@ Optical Simulation of Metal Halide Perovskites
 
 ## Motivation
 
-This repo is dedicated to the pipeline design and operation of FDTD (Lumerical) and SETFOS (TMM+RT) softwares, along with other tried methods to simulate/model the performance of MHP and MHP 2T tandems. 
+This repo is dedicated to the pipeline design and operation of FDTD (Lumerical) and SETFOS (TMM+RT) softwares, along with other tried methods to simulate/model the performance of metal halide perovskites (MHP) and MHP-Silicon 2T tandems. 
 
 ### Demo of FDTD Results
 
