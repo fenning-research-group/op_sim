@@ -1,0 +1,40 @@
+#######  Script to generate InvertedPyramid doping profile  ####
+# Inputs
+
+ND = 1e19;  # donor concentration; unit /cm^3.  Use negative value for acceptors
+P = 201;  # number of points along x and y direction
+Pz = 21;  # number of points along z direction
+
+# rectangular grid
+
+x = linspace(-0.8,0.8,P)*1e-6;
+y = linspace(-0.8,0.8,P)*1e-6;
+z = linspace(-0.75,0.75,Pz)*1e-6;  # 
+
+N = matrix(P,P,Pz);
+
+N(1:P,1:P,1:Pz) = ND * 1e6;  # Set doping at all points to ND.  Make unit /m^3
+
+R_bottom = 0.1e-6;  # Half of pyramid width at base 
+R_top = 0.75e-6;  # Half of pyramid width at top
+depth = 0.05e-6;  # dopant penetration
+
+R = linspace(R_bottom,R_top,Pz) - depth;  # inner width at base and at top
+
+for (k=1:Pz) {
+    for (i=1:P) {
+        for (j=1:P) {
+            if ((abs(x(i)) < R(k)) & (abs(y(j)) < R(k))) {N(i,j,k) = 0;}  # If both x and y are within the inner width set doping to zero
+        }
+    }
+}
+
+# plot profile on XY plane
+
+image(x,y,N(1:P,1:P,1),'x (m)','y (m)','N (/m^3)');
+image(x,y,N(1:P,1:P,11),'x (m)','y (m)','N (/m^3)');
+image(x,y,N(1:P,1:P,21),'x (m)','y (m)','N (/m^3)');
+
+# save data in .mat file
+
+matlabsave("TiO2 Doping",N,x,y,z);

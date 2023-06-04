@@ -1,0 +1,18 @@
+# SETFOS, Semiconducting Thin Film Optics Simulator
+#
+# Parameter file:    C:\Users\Deniz\Documents\Setfos\workspace\Thickness Sweep on Tin thin.parx
+# Host name:         DESKTOP-H9RHCC3
+# Operating system:  Windows_NT
+# User:              Deniz
+# Time of execution: Thu Sep 17 04:27:21 2020
+
+# CPU time elapsed: 89.87 s
+#
+# Sweep spectral: Wavelength (nm)	[300,1500,15]
+# Sweep 1: PSK161.d (nm)	[175,185,5]
+#
+# PSK161.d(nm)	SEIR()	SIA()	Rref()	Tref()	ITO_Top2.isc(mA/cm^2)	ITO_Top2.opteff(%)	SnOx.isc(mA/cm^2)	SnOx.opteff(%)	PSK161.isc(mA/cm^2)	PSK161.opteff(%)	PSK161.conversion_eff(%)	Spiro.isc(mA/cm^2)	Spiro.opteff(%)	ITO_Top.isc(mA/cm^2)	ITO_Top.opteff(%)	Tin85.isc(mA/cm^2)	Tin85.opteff(%)	Tin85.conversion_eff(%)	isc_R(mA/cm^2)	isc_T(mA/cm^2)	
+1.750000e+02	1.622276e-02	9.754008e-01	1.246093e-02	5.259777e-17	1.941887e+00	2.815021e+00	9.789824e-01	1.419164e+00	2.349055e+01	3.405265e+01	2.066402e+01	1.223562e+00	1.773715e+00	1.511251e-01	2.190758e-01	2.367791e+01	3.432426e+01	8.520887e+00	1.537535e+00	2.625387e-01	
+1.800000e+02	1.718416e-02	9.753908e-01	1.540863e-02	5.008905e-17	1.940402e+00	2.812869e+00	9.937305e-01	1.440544e+00	2.354229e+01	3.412767e+01	2.070954e+01	1.215877e+00	1.762574e+00	1.502441e-01	2.177987e-01	2.362396e+01	3.424605e+01	8.501472e+00	1.534784e+00	2.627966e-01	
+1.850000e+02	1.802881e-02	9.754122e-01	1.824407e-02	4.745449e-17	1.927681e+00	2.794429e+00	1.005534e+00	1.457655e+00	2.357036e+01	3.416836e+01	2.073423e+01	1.204479e+00	1.746052e+00	1.489389e-01	2.159065e-01	2.361214e+01	3.422891e+01	8.497218e+00	1.532416e+00	2.625362e-01	
+

@@ -1,0 +1,58 @@
+################################################
+# calculate power absorbed in  region where  
+# the refractive indes is that of a particular materials
+# (Silicon and Silver) for all frequencies,
+# by integrating the absorption over this material.
+#
+# This file should work for both 2D and 3D simulation
+#################################################
+clear;
+closeall;
+
+# get monitor data
+#runanalysis;
+m="pabs_adv";
+Pabs=getresult(m,"Pabs");
+n = getresult(m+"::index","index");
+n = n.index_x;
+f=Pabs.f;
+nx=length(Pabs.x);
+ny=length(Pabs.y);
+nz=length(Pabs.z);
+nf=length(Pabs.f);
+
+# define material filters
+
+filter_mat_Si = "MAPI_rishi";
+
+filter_real_Si = matrix(nx,ny,nz,nf);
+filter_imag_Si = matrix(nx,ny,nz,nf);
+
+n_filter_real_Si = real(getfdtdindex(filter_mat_Si,f,min(f),max(f)));
+n_filter_imag_Si = imag(getfdtdindex(filter_mat_Si,f,min(f),max(f)));
+
+#relative difference for almosequal comparator
+rel_diff = 1e-15;
+
+for (i=1:nf) {
+    filter_real_Si(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_Si(2),pinch(real(n),4,2),rel_diff);
+    filter_imag_Si(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_Si(2),pinch(imag(n),4,2),rel_diff);
+}
+filter_Si=filter_real_Si*filter_imag_Si;
+
+#integrate
+
+Pabs_Si = integrate2(Pabs.Pabs*filter_Si,1:3,Pabs.x,Pabs.y,Pabs.z);
+
+# plots of absorption spectrum
+plot(c/f*1e9,Pabs_Si,"wavelength","Power Absorption","Absorption in CH3NH3PbI3");
+
+# write the data to the file
+a=(c/f*1e9);
+b=Pabs_Si;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("3T_SiO2.txt",str);
+}
+
+

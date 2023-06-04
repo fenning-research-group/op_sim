@@ -1,0 +1,63 @@
+Aug 22, 2020, 10:14:27 AM: :: EVALUATION VERSION
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: ::***************************************************************************::
+Aug 22, 2020, 10:14:28 AM: :: SETFOS, Semiconducting Thin Film Optics Simulator 
+Aug 22, 2020, 10:14:28 AM: ::***************************************************************************::
+Aug 22, 2020, 10:14:28 AM: | Version:           5.1.1 (x64) build 699
+Aug 22, 2020, 10:14:28 AM: | Host:              DESKTOP-H9RHCC3
+Aug 22, 2020, 10:14:28 AM: | Operating system:  Windows_NT
+Aug 22, 2020, 10:14:28 AM: | User:              Deniz
+Aug 22, 2020, 10:14:28 AM: | Parameter file:    C:\Users\Deniz\Documents\Setfos\workspace\PoSiT.parx
+Aug 22, 2020, 10:14:28 AM: | Output directory:  C:\Users\Deniz\Documents\Setfos\workspace\PoSiT
+Aug 22, 2020, 10:14:28 AM: | Time of execution: Sat Aug 22 10:14:27 2020
+Aug 22, 2020, 10:14:28 AM: +-----------------------------------------------------------------------------+
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: :: Load config file(s)
+Aug 22, 2020, 10:14:28 AM: Multi-threading disabled
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: :: Layer stack summary (# of layers: 4)
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 	Layer	Name	d (nm)	Refractive index (at 550.0 nm)	
+Aug 22, 2020, 10:14:28 AM: 	1	Air_1	0	1.00 + I 0.0
+Aug 22, 2020, 10:14:28 AM: 	2	PSK	1000	2.53 + I 0.2
+Aug 22, 2020, 10:14:28 AM: 	3	Glass	2e+06	1.46 + I 0.0
+Aug 22, 2020, 10:14:28 AM: 	4	Air_2	100	1.00 + I 0.0
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 	Default incident angle:	0.0
+Aug 22, 2020, 10:14:28 AM: 	Default wavelength:		550.0 nm
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: ::***************************************************************************::
+Aug 22, 2020, 10:14:28 AM: :: Run simulation - Sweep
+Aug 22, 2020, 10:14:28 AM: ::***************************************************************************::
+Aug 22, 2020, 10:14:28 AM: :: MultiLayerOptics calculation
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Aug 22, 2020, 10:14:28 AM: 	-----------------------------
+Aug 22, 2020, 10:14:28 AM: 	[PSK]:	-nan(ind)	(-nan(ind))
+Aug 22, 2020, 10:14:28 AM: 	[Glass]:	-nan(ind)	(-nan(ind))
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: 
+Aug 22, 2020, 10:14:28 AM: ::***************************************************************************::
+Aug 22, 2020, 10:14:28 AM: :: Process simulation results
+Aug 22, 2020, 10:14:28 AM: ::***************************************************************************::
+Aug 22, 2020, 10:14:28 AM:  [] Export simulation results to file(s).. done.
+Aug 22, 2020, 10:14:28 AM:  [] Generate plot script file(s).. done.
+Aug 22, 2020, 10:14:28 AM:  [] Run gnuplot.. done.
+Aug 22, 2020, 10:14:39 AM:  [] Generate HTML report.. done.
+Aug 22, 2020, 10:14:39 AM: 
+Aug 22, 2020, 10:14:39 AM: +-----------------------------------------------------------------------------+
+Aug 22, 2020, 10:14:39 AM: | WARNINGS: 
+Aug 22, 2020, 10:14:39 AM: +-----------------------------------------------------------------------------+
+Aug 22, 2020, 10:14:39 AM: | (GN-02):: Layer Glass is coherent but has a thickness >=10000.000000 nm. It is recommended to set it 'Incoherent'
+Aug 22, 2020, 10:14:39 AM: | (EV-01):: Evaluation version active - calculation precision is limited
+Aug 22, 2020, 10:14:39 AM: | (EM-01):: Color is outside CCT definition range - CCT set to 1667.000000
+Aug 22, 2020, 10:14:39 AM: +-----------------------------------------------------------------------------+
+Aug 22, 2020, 10:14:39 AM: 
+Aug 22, 2020, 10:14:39 AM: 
+Aug 22, 2020, 10:14:39 AM: CPU time elapsed: 11.95 s
+Aug 22, 2020, 10:14:39 AM: 
+Aug 22, 2020, 10:14:39 AM: 

@@ -1,0 +1,7 @@
+setup.py
+OPSIM/FDTD_processing.py
+OPSIM/SETFOS_processing.py
+OPSIM.egg-info/PKG-INFO
+OPSIM.egg-info/SOURCES.txt
+OPSIM.egg-info/dependency_links.txt
+OPSIM.egg-info/top_level.txt

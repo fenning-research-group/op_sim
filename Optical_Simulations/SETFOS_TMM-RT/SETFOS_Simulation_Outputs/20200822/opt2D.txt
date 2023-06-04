@@ -1,0 +1,12 @@
+# SETFOS, Semiconducting Thin Film Optics Simulator
+#
+# Parameter file:    C:\Users\Deniz\Documents\Setfos\workspace\PoSiT.parx
+# Host name:         DESKTOP-H9RHCC3
+# Operating system:  Windows_NT
+# User:              Deniz
+# Time of execution: Sat Aug 22 10:14:27 2020
+
+# CPU time elapsed: 1.15 s
+#
+# CIE_x,R()	CIE_y,R()	CIE_Y,R()	CIE_x,T()	CIE_y,T()	CIE_Y,T()	CRI transmitted()	SEIR()	SIA()	Rref()	Tref()	PSK.isc(mA/cm^2)	PSK.opteff(%)	PSK.conversion_eff(%)	Glass.isc(mA/cm^2)	Glass.opteff(%)	isc_R(mA/cm^2)	isc_T(mA/cm^2)	
+3.234204e-01	3.410395e-01	1.929001e-01	6.008162e-01	3.968607e-01	1.492126e-02	7.834206e+01	1.929001e-01	4.845495e-01	1.888910e-01	1.070540e-02	-nan(ind)	-nan(ind)	-nan(ind)	-nan(ind)	-nan(ind)	1.007914e+01	1.907742e+01	

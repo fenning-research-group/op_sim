@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<t:ErrorList xmlns:t="http://www.fluxim.com/xmlns/Errors">
+  <header>
+    <executiontime>2020-11-05T03:18:56</executiontime>
+    <parfilename>Textured_Glass_ITO_PTB7PCBM_Ag_sweep.parx</parfilename>
+    <outputdir>/home/dcakan/setfos/workspace/Textured_Glass_ITO_PTB7PCBM_Ag_sweep</outputdir>
+  </header>
+  <error>
+    <message>no command processor available</message>
+    <type>runtime error</type>
+  </error>
+  <error>
+    <message>processing results</message>
+    <type>runtime error</type>
+  </error>
+</t:ErrorList>

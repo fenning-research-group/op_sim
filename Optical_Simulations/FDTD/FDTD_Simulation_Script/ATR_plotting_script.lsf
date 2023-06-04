@@ -1,0 +1,51 @@
+closeall;
+clear;
+
+# angle 27.35
+# simulation results
+f = getdata("T","f") ; # frequency vector
+R = transmission("R");
+#R_1 = 1+transmission("R_1"); # how much actually in psk
+#R_2 = 1+transmission("R_2"); # spiro
+T = -transmission("T");
+# T1 = -transmission("T_1");
+nlambda=c/f*1e9;
+plot(nlambda,1-R); #,T,1-R-T, "wavelength (nm)","Absobtion","Simulation");
+#legend("R","T","Total", "PSK+HTL");
+setplot("x min", 300);
+setplot("x max", 1200);
+setplot("y min", -.1);
+setplot("y max", 1.1);
+
+#rm("reflection_export.txt");
+#data_to_print=[nlambda,R];
+#write("reflection_export.txt",num2str(data_to_print));
+
+#rm("tranmission_export.txt");
+#data_to_print=[nlambda,T];
+#write("transmission_export.txt",num2str(data_to_print));
+
+
+a=nlambda;
+b=R;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("reflection_export.txt",str);
+}
+
+b=T;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("transmission_export.txt",str);
+}
+
+
+
+
+#alpha= 1/(100e-9)*log((1-R)^2 / T);
+#height = max(alpha);
+#plot(nlambda, alpha);
+#setplot("x min", 300);
+#setplot("x max", 1500);
+#setplot("y min", 0);
+#setplot("y max", height*1.1);

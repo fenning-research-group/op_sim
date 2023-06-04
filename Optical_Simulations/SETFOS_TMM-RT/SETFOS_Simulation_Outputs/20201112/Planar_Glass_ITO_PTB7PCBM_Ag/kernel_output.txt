@@ -1,0 +1,64 @@
+Nov 5, 2020, 2:47:34 AM: :: EVALUATION VERSION
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: ::***************************************************************************::
+Nov 5, 2020, 2:47:34 AM: :: SETFOS, Semiconducting Thin Film Optics Simulator 
+Nov 5, 2020, 2:47:34 AM: ::***************************************************************************::
+Nov 5, 2020, 2:47:34 AM: | Version:           5.1.2 (x64) build 408
+Nov 5, 2020, 2:47:34 AM: | Host:              MAE202EML
+Nov 5, 2020, 2:47:34 AM: | Operating system:  Linux
+Nov 5, 2020, 2:47:34 AM: | User:              dcakan
+Nov 5, 2020, 2:47:34 AM: | Parameter file:    /home/dcakan/setfos/workspace/Planar_Glass_ITO_PTB7PCBM_Ag.parx
+Nov 5, 2020, 2:47:34 AM: | Output directory:  /home/dcakan/setfos/workspace/Planar_Glass_ITO_PTB7PCBM_Ag
+Nov 5, 2020, 2:47:34 AM: | Time of execution: Thu Nov 05 02:47:34 2020
+Nov 5, 2020, 2:47:34 AM: +-----------------------------------------------------------------------------+
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: :: Load config file(s)
+Nov 5, 2020, 2:47:34 AM: Multi-threading disabled
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: :: Layer stack summary (# of layers: 6)
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 	Layer	Name	d (nm)	Refractive index (at 550.0 nm)	
+Nov 5, 2020, 2:47:34 AM: 	1	Surrounding	0	1.00 + I 0.0
+Nov 5, 2020, 2:47:34 AM: 	2	Glass	1e+06	1.53 + I 0.0
+Nov 5, 2020, 2:47:34 AM: 	3	ITO	100	2.10 + I 0.0
+Nov 5, 2020, 2:47:34 AM: 	4	B7	100	1.89 + I 0.3
+Nov 5, 2020, 2:47:34 AM: 	5	Ag	100	0.12 + I 3.3
+Nov 5, 2020, 2:47:34 AM: 	6	Surrounding_copy	0	1.00 + I 0.0
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 	Default incident angle:	0.0
+Nov 5, 2020, 2:47:34 AM: 	Default wavelength:		550.0 nm
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: ::***************************************************************************::
+Nov 5, 2020, 2:47:34 AM: :: Run simulation - Sweep
+Nov 5, 2020, 2:47:34 AM: ::***************************************************************************::
+Nov 5, 2020, 2:47:34 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:47:34 AM: 	-----------------------------
+Nov 5, 2020, 2:47:34 AM: 	[Glass]:	1.62	(0.2)
+Nov 5, 2020, 2:47:34 AM: 	[ITO]:	7.31	(1.1)
+Nov 5, 2020, 2:47:34 AM: 	[B7]:	179.59	(26.0)
+Nov 5, 2020, 2:47:34 AM: 	[Ag]:	14.34	(2.1)
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: 
+Nov 5, 2020, 2:47:34 AM: ::***************************************************************************::
+Nov 5, 2020, 2:47:34 AM: :: Process simulation results
+Nov 5, 2020, 2:47:34 AM: ::***************************************************************************::
+Nov 5, 2020, 2:47:34 AM:  [] Export simulation results to file(s).. done.
+Nov 5, 2020, 2:47:35 AM:  [] Generate plot script file(s).. done.
+Nov 5, 2020, 2:47:35 AM: 
+Nov 5, 2020, 2:47:35 AM: +-----------------------------------------------------------------------------+
+Nov 5, 2020, 2:47:35 AM: | WARNINGS: 
+Nov 5, 2020, 2:47:35 AM: +-----------------------------------------------------------------------------+
+Nov 5, 2020, 2:47:35 AM: | (EV-01):: Evaluation version active - calculation precision is limited
+Nov 5, 2020, 2:47:35 AM: | (EV-04):: Eval limitation: MultiLayerOptics sweep variable step size set to 15 nm
+Nov 5, 2020, 2:47:35 AM: +-----------------------------------------------------------------------------+
+Nov 5, 2020, 2:47:35 AM: 
+Nov 5, 2020, 2:47:35 AM: 
+Nov 5, 2020, 2:47:35 AM: CPU time elapsed: 1.16 s
+Nov 5, 2020, 2:47:35 AM: 
+Nov 5, 2020, 2:47:35 AM: 

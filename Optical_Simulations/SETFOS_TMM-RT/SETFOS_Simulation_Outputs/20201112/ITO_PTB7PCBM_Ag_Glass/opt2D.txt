@@ -1,0 +1,12 @@
+# SETFOS, Semiconducting Thin Film Optics Simulator
+#
+# Parameter file:    /home/dcakan/setfos/workspace/ITO_PTB7PCBM_Ag_Glass.parx
+# Host name:         MAE202EML
+# Operating system:  Linux
+# User:              dcakan
+# Time of execution: Thu Nov 05 02:39:00 2020
+
+# CPU time elapsed: 446.83 s
+#
+# SEIR()	SIA()	Rref()	Tref()	ITO.isc(mA/cm^2)	ITO.opteff(%)	B7.isc(mA/cm^2)	B7.opteff(%)	Ag.isc(mA/cm^2)	Ag.opteff(%)	Glass.isc(mA/cm^2)	Glass.opteff(%)	isc_R(mA/cm^2)	isc_T(mA/cm^2)	
+1.044111e-02	6.239642e-01	1.640318e-03	4.087235e-04	9.494221e-01	1.376313e+00	2.079001e+01	3.013787e+01	1.923017e+00	2.787668e+00	6.086025e-04	8.822496e-04	2.312737e+01	1.964434e-02	

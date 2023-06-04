@@ -1,0 +1,238 @@
+clear;
+closeall;
+
+# get monitor data
+runanalysis;
+m="pabs_adv";
+Pabs=getresult(m,"Pabs");
+n = getresult(m+"::index","index");
+n = n.index_x;
+f=Pabs.f;
+nx=length(Pabs.x);
+ny=length(Pabs.y);
+nz=length(Pabs.z);
+nf=length(Pabs.f);
+
+# define material filters
+
+filter_mat_Si = "Si (Silicon) - Palik";
+#filter_mat_SiPy = "Si (Silicon) - Palik Pyramid";
+filter_mat_ITO_top = "ITO_rishi_top";
+#filter_mat_ITO_bot = "ITO_rishi_bot";
+filter_mat_HTL = "SPIRO_rishi";
+filter_mat_PSK = "MAPI_Gede";
+filter_mat_ETL = "SnOx_v1";
+
+# silicon matrix
+filter_real_Si = matrix(nx,ny,nz,nf);
+filter_imag_Si = matrix(nx,ny,nz,nf);
+
+#filter_real_SiPy = matrix(nx,ny,nz,nf);
+#filter_imag_SiPy = matrix(nx,ny,nz,nf);
+
+filter_real_ITO_top = matrix(nx,ny,nz,nf);
+filter_imag_ITO_top = matrix(nx,ny,nz,nf);
+
+#filter_real_ITO_bot = matrix(nx,ny,nz,nf);
+#filter_imag_ITO_bot = matrix(nx,ny,nz,nf);
+
+filter_real_HTL = matrix(nx,ny,nz,nf);
+filter_imag_HTL = matrix(nx,ny,nz,nf);
+
+filter_real_PSK = matrix(nx,ny,nz,nf);
+filter_imag_PSK = matrix(nx,ny,nz,nf);
+
+filter_real_ETL = matrix(nx,ny,nz,nf);
+filter_imag_ETL = matrix(nx,ny,nz,nf);
+
+
+
+
+n_filter_real_Si = real(getfdtdindex(filter_mat_Si,f,min(f),max(f)));
+n_filter_imag_Si = imag(getfdtdindex(filter_mat_Si,f,min(f),max(f)));
+
+#n_filter_real_SiPy = real(getfdtdindex(filter_mat_SiPy,f,min(f),max(f)));
+#n_filter_imag_SiPy = imag(getfdtdindex(filter_mat_SiPy,f,min(f),max(f)));
+
+n_filter_real_ITO_top = real(getfdtdindex(filter_mat_ITO_top,f,min(f),max(f)));
+n_filter_imag_ITO_top = imag(getfdtdindex(filter_mat_ITO_top,f,min(f),max(f)));
+
+#n_filter_real_ITO_bot = real(getfdtdindex(filter_mat_ITO_bot,f,min(f),max(f)));
+#n_filter_imag_ITO_bot = imag(getfdtdindex(filter_mat_ITO_bot,f,min(f),max(f)));
+
+n_filter_real_HTL = real(getfdtdindex(filter_mat_HTL,f,min(f),max(f)));
+n_filter_imag_HTL = imag(getfdtdindex(filter_mat_HTL,f,min(f),max(f)));
+
+n_filter_real_PSK = real(getfdtdindex(filter_mat_PSK,f,min(f),max(f)));
+n_filter_imag_PSK = imag(getfdtdindex(filter_mat_PSK,f,min(f),max(f)));
+
+n_filter_real_ETL = real(getfdtdindex(filter_mat_ETL,f,min(f),max(f)));
+n_filter_imag_ETL = imag(getfdtdindex(filter_mat_ETL,f,min(f),max(f)));
+
+#relative difference for almosequal comparator
+rel_diff = 1e-15;
+
+
+# si
+for (i=1:nf) {
+    filter_real_Si(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_Si(2),pinch(real(n),4,2),rel_diff);
+    filter_imag_Si(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_Si(2),pinch(imag(n),4,2),rel_diff);
+}
+filter_Si=filter_real_Si*filter_imag_Si;
+
+# sipy
+#for (i=1:nf) {
+    #filter_real_SiPy(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_SiPy(2),pinch(real(n),4,2),rel_diff);
+    #filter_imag_SiPy(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_SiPy(2),pinch(imag(n),4,2),rel_diff);
+#}
+#filter_SiPy=filter_real_SiPy*filter_imag_SiPy;
+
+#itoTop
+for (i=1:nf) {
+    filter_real_ITO_top(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_ITO_top(2),pinch(real(n),4,2),rel_diff);
+    filter_imag_ITO_top(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_ITO_top(2),pinch(imag(n),4,2),rel_diff);
+}
+filter_ITO_top=filter_real_ITO_top*filter_imag_ITO_top;
+
+#itoBot
+#for (i=1:nf) {
+    #filter_real_ITO_bot(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_ITO_bot(2),pinch(real(n),4,2),rel_diff);
+    #filter_imag_ITO_bot(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_ITO_bot(2),pinch(imag(n),4,2),rel_diff);
+#}
+#filter_ITO_bot=filter_real_ITO_bot*filter_imag_ITO_bot;
+
+#htl
+for (i=1:nf) {
+    filter_real_HTL(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_HTL(2),pinch(real(n),4,2),rel_diff);
+    filter_imag_HTL(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_HTL(2),pinch(imag(n),4,2),rel_diff);
+}
+filter_HTL=filter_real_HTL*filter_imag_HTL;
+
+#psk
+for (i=1:nf) {
+    filter_real_PSK(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_PSK(2),pinch(real(n),4,2),rel_diff);
+    filter_imag_PSK(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_PSK(2),pinch(imag(n),4,2),rel_diff);
+}
+filter_PSK=filter_real_PSK*filter_imag_PSK;
+
+#etl
+for (i=1:nf) {
+    filter_real_ETL(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_real_ETL(2),pinch(real(n),4,2),rel_diff);
+    filter_imag_ETL(1:nx,1:ny,1:nz,i) =  almostequal(n_filter_imag_ETL(2),pinch(imag(n),4,2),rel_diff);
+}
+filter_ETL=filter_real_ETL*filter_imag_ETL;
+
+
+#integrate
+
+Pabs_Si = integrate2(Pabs.Pabs*filter_Si,1:3,Pabs.x,Pabs.y,Pabs.z);
+#Pabs_SiPy = integrate2(Pabs.Pabs*filter_SiPy,1:3,Pabs.x,Pabs.y,Pabs.z);
+Pabs_ITO_top = integrate2(Pabs.Pabs*filter_ITO_top,1:3,Pabs.x,Pabs.y,Pabs.z);
+#Pabs_ITO_bot = integrate2(Pabs.Pabs*filter_ITO_bot,1:3,Pabs.x,Pabs.y,Pabs.z);
+Pabs_HTL = integrate2(Pabs.Pabs*filter_HTL,1:3,Pabs.x,Pabs.y,Pabs.z);
+Pabs_PSK = integrate2(Pabs.Pabs*filter_PSK,1:3,Pabs.x,Pabs.y,Pabs.z);
+Pabs_ETL = integrate2(Pabs.Pabs*filter_ETL,1:3,Pabs.x,Pabs.y,Pabs.z);
+
+
+#Plots of filters and total absorption at a wavelength
+if (nz>1){ # 3D
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(filter_Si,4,8),3,20),"x (um)","y (um)","filter_Silicon");
+#image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(filter_SiPy,4,8),3,20),"x (um)","y (um)","filter_SiliconPyramid");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(filter_ITO_top,4,8),3,20),"x (um)","y (um)","filter_ITO_top");
+#image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(filter_ITO_bot,4,8),3,20),"x (um)","y (um)","filter_ITO_bot");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(filter_HTL,4,8),3,20),"x (um)","y (um)","filter_HTL");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(filter_PSK,4,8),3,20),"x (um)","y (um)","filter_Perovskite");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(filter_ETL,4,8),3,20),"x (um)","y (um)","filter_ETL");
+
+
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(pinch(log10(Pabs.Pabs),4,8),3,20),"x (um)","y (um)","Total Absorption");
+}else{ # 2D
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(filter_Si,4,8),"x (um)","y (um)","filter_Silicon");
+#image(Pabs.x*1e6,Pabs.y*1e6,pinch(filter_SiPy,4,8),"x (um)","y (um)","filter_SiliconPy");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(filter_ITO_top,4,8),"x (um)","y (um)","filter_ITO_top");
+#image(Pabs.x*1e6,Pabs.y*1e6,pinch(filter_ITO_bot,4,8),"x (um)","y (um)","filter_ITO_bot");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(filter_HTL,4,8),"x (um)","y (um)","filter_HTL");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(filter_PSK,4,8),"x (um)","y (um)","filter_Perovskite");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(filter_ETL,4,8),"x (um)","y (um)","filter_ETL");
+image(Pabs.x*1e6,Pabs.y*1e6,pinch(log10(Pabs.Pabs),4,8),"x (um)","y (um)","Total Absorption");
+}
+
+# plots of absorption spectrum
+plot(c/f*1e9,Pabs_Si,"wavelength","Power Absorption","Absorption in Silicon");
+#plot(c/f*1e9,Pabs_SiPy,"wavelength","Power Absorption","Absorption in Silicon Pyramid");
+plot(c/f*1e9,Pabs_ITO_top,"wavelength","Power Absorption","Absorption in ITO_top");
+#plot(c/f*1e9,Pabs_ITO_bot,"wavelength","Power Absorption","Absorption in ITO_bot");
+plot(c/f*1e9,Pabs_HTL,"wavelength","Power Absorption","Absorption in HTL");
+plot(c/f*1e9,Pabs_PSK,"wavelength","Power Absorption","Absorption in Perovskite");
+plot(c/f*1e9,Pabs_ETL,"wavelength","Power Absorption","Absorption in ETL");
+plot(c/f*1e9,Pabs_Si+Pabs_ITO_top+Pabs_HTL+Pabs_PSK+Pabs_ETL,"wavelength","Power Absorption","Total absorption");
+
+#exporting data
+nlambda=c/f*1e9;
+#rm("SI_EQE.txt");
+#data_to_print=[nlambda,Pabs_Si];
+#write("SI_EQE.txt",num2str(data_to_print));
+
+##nlambda=c/f*1e9;
+##rm("SIPy_EQE.txt");
+##data_to_print=[nlambda,Pabs_SiPy];
+##write("SIPy_EQE.txt",num2str(data_to_print));
+
+#rm("ITO_top_EQE.txt");
+#data_to_print=[nlambda,Pabs_ITO_top];
+#write("ITO_top_EQE.txt",num2str(data_to_print));
+
+##rm("ITO_bot_EQE.txt");
+##data_to_print=[nlambda,Pabs_ITO_bot];
+##write("ITO_bot_EQE.txt",num2str(data_to_print));
+
+#rm("HTL_EQE.txt");
+#data_to_print=[nlambda,Pabs_HTL];
+#write("HTL_EQE.txt",num2str(data_to_print));
+
+#rm("PSK_EQE.txt");
+#data_to_print=[nlambda,Pabs_PSK];
+#write("PSK_EQE.txt",num2str(data_to_print));
+
+#rm("ETL_EQE.txt");
+#data_to_print=[nlambda,Pabs_ETL];
+#write("ETL_EQE.txt",num2str(data_to_print));
+
+
+
+# write the data to the file
+a=nlambda;
+
+b=Pabs_Si;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("SI_EQE.txt",str);
+}
+
+b=Pabs_ITO_top;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("ITO_top_EQE.txt",str);
+}
+
+b=Pabs_HTL;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("HTL_EQE.txt",str);
+}
+
+b=Pabs_PSK;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("PSK_EQE.txt",str);
+}
+
+b=Pabs_ETL;
+for (i=1:length(a) ) {
+  str= num2str(a(i))+", "+num2str(b(i));
+  write("ETL_EQE.txt",str);
+}
+
+
+
+

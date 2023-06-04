@@ -1,0 +1,2782 @@
+Nov 5, 2020, 3:18:56 AM: :: EVALUATION VERSION
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: ::***************************************************************************::
+Nov 5, 2020, 3:18:57 AM: :: SETFOS, Semiconducting Thin Film Optics Simulator 
+Nov 5, 2020, 3:18:57 AM: ::***************************************************************************::
+Nov 5, 2020, 3:18:57 AM: | Version:           5.1.2 (x64) build 408
+Nov 5, 2020, 3:18:57 AM: | Host:              MAE202EML
+Nov 5, 2020, 3:18:57 AM: | Operating system:  Linux
+Nov 5, 2020, 3:18:57 AM: | User:              dcakan
+Nov 5, 2020, 3:18:57 AM: | Parameter file:    /home/dcakan/setfos/workspace/Textured_Glass_ITO_PTB7PCBM_Ag_sweep.parx
+Nov 5, 2020, 3:18:57 AM: | Output directory:  /home/dcakan/setfos/workspace/Textured_Glass_ITO_PTB7PCBM_Ag_sweep
+Nov 5, 2020, 3:18:57 AM: | Time of execution: Thu Nov 05 03:18:56 2020
+Nov 5, 2020, 3:18:57 AM: +-----------------------------------------------------------------------------+
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: :: Load config file(s)
+Nov 5, 2020, 3:18:57 AM: Multi-threading disabled
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: :: Layer stack summary (# of layers: 6)
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: 	Layer	Name	d (nm)	Refractive index (at 550.0 nm)	
+Nov 5, 2020, 3:18:57 AM: 	1	Surrounding	0	1.00 + I 0.0
+Nov 5, 2020, 3:18:57 AM: 	2	Glass	1e+06	1.53 + I 0.0
+Nov 5, 2020, 3:18:57 AM: 	3	ITO	100	2.10 + I 0.0
+Nov 5, 2020, 3:18:57 AM: 	4	B7	100	1.89 + I 0.3
+Nov 5, 2020, 3:18:57 AM: 	5	Ag	100	0.12 + I 3.3
+Nov 5, 2020, 3:18:57 AM: 	6	Surrounding_copy	0	1.00 + I 0.0
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: 	Default incident angle:	0.0
+Nov 5, 2020, 3:18:57 AM: 	Default wavelength:		550.0 nm
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: :: Sweep summary (# of sweeps: 1)
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: 	B7.d	 [10..2000]	step: 10
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: ::***************************************************************************::
+Nov 5, 2020, 3:18:57 AM: :: Run simulation - Sweep
+Nov 5, 2020, 3:18:57 AM: ::***************************************************************************::
+Nov 5, 2020, 3:18:57 AM: :: [B7.d = 10 nm]
+Nov 5, 2020, 3:18:57 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:18:57 AM: 
+Nov 5, 2020, 3:18:57 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:20:28 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:23:40 AM: 
+Nov 5, 2020, 3:26:37 AM: :: [B7.d = 20 nm]
+Nov 5, 2020, 3:26:37 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:26:37 AM: 
+Nov 5, 2020, 3:26:38 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:27:00 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:29:04 AM: 
+Nov 5, 2020, 3:32:01 AM: :: [B7.d = 30 nm]
+Nov 5, 2020, 3:32:01 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:32:01 AM: 
+Nov 5, 2020, 3:32:01 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:33:53 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:35:24 AM: 
+Nov 5, 2020, 3:37:23 AM: :: [B7.d = 40 nm]
+Nov 5, 2020, 3:37:23 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:37:23 AM: 
+Nov 5, 2020, 3:37:23 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:38:47 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:39:03 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:39:10 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:40:46 AM: 
+Nov 5, 2020, 3:42:49 AM: :: [B7.d = 50 nm]
+Nov 5, 2020, 3:42:49 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:42:49 AM: 
+Nov 5, 2020, 3:42:49 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:43:21 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:45:27 AM: 
+Nov 5, 2020, 3:48:15 AM: :: [B7.d = 60 nm]
+Nov 5, 2020, 3:48:16 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:48:16 AM: 
+Nov 5, 2020, 3:48:16 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:51:43 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:52:20 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:52:35 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:53:22 AM: 
+Nov 5, 2020, 3:53:42 AM: :: [B7.d = 70 nm]
+Nov 5, 2020, 3:53:42 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:53:42 AM: 
+Nov 5, 2020, 3:53:42 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:55:45 AM: 
+Nov 5, 2020, 3:59:08 AM: :: [B7.d = 80 nm]
+Nov 5, 2020, 3:59:08 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:59:08 AM: 
+Nov 5, 2020, 3:59:08 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:00:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:01:29 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:03:16 AM: 
+Nov 5, 2020, 4:04:30 AM: :: [B7.d = 90 nm]
+Nov 5, 2020, 4:04:30 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:04:30 AM: 
+Nov 5, 2020, 4:04:30 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:06:14 AM: 
+Nov 5, 2020, 4:09:57 AM: :: [B7.d = 100 nm]
+Nov 5, 2020, 4:09:58 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:09:58 AM: 
+Nov 5, 2020, 4:09:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:11:41 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:14:00 AM: 
+Nov 5, 2020, 4:15:22 AM: :: [B7.d = 110 nm]
+Nov 5, 2020, 4:15:23 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:15:23 AM: 
+Nov 5, 2020, 4:15:23 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:15:30 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:18:27 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:18:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:19:26 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:19:59 AM: 
+Nov 5, 2020, 4:20:45 AM: :: [B7.d = 120 nm]
+Nov 5, 2020, 4:20:45 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:20:45 AM: 
+Nov 5, 2020, 4:20:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:22:16 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:23:32 AM: 
+Nov 5, 2020, 4:26:08 AM: :: [B7.d = 130 nm]
+Nov 5, 2020, 4:26:08 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:26:08 AM: 
+Nov 5, 2020, 4:26:08 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:27:26 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:30:51 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:30:56 AM: 
+Nov 5, 2020, 4:31:27 AM: :: [B7.d = 140 nm]
+Nov 5, 2020, 4:31:27 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:31:27 AM: 
+Nov 5, 2020, 4:31:27 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:32:17 AM: 
+Nov 5, 2020, 4:36:44 AM: :: [B7.d = 150 nm]
+Nov 5, 2020, 4:36:45 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:36:45 AM: 
+Nov 5, 2020, 4:36:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:40:01 AM: 
+Nov 5, 2020, 4:42:05 AM: :: [B7.d = 160 nm]
+Nov 5, 2020, 4:42:05 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:42:05 AM: 
+Nov 5, 2020, 4:42:06 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:44:37 AM: 
+Nov 5, 2020, 4:47:27 AM: :: [B7.d = 170 nm]
+Nov 5, 2020, 4:47:27 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:47:27 AM: 
+Nov 5, 2020, 4:47:27 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:48:37 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:49:04 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:49:59 AM: 
+Nov 5, 2020, 4:52:50 AM: :: [B7.d = 180 nm]
+Nov 5, 2020, 4:52:50 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:52:50 AM: 
+Nov 5, 2020, 4:52:50 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:54:56 AM: 
+Nov 5, 2020, 4:58:12 AM: :: [B7.d = 190 nm]
+Nov 5, 2020, 4:58:12 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:58:12 AM: 
+Nov 5, 2020, 4:58:13 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:59:30 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:59:40 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:59:57 AM: 
+Nov 5, 2020, 5:03:33 AM: :: [B7.d = 200 nm]
+Nov 5, 2020, 5:03:33 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:03:33 AM: 
+Nov 5, 2020, 5:03:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:08:54 AM: 
+Nov 5, 2020, 5:08:58 AM: :: [B7.d = 210 nm]
+Nov 5, 2020, 5:08:58 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:08:58 AM: 
+Nov 5, 2020, 5:08:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:11:15 AM: 
+Nov 5, 2020, 5:14:19 AM: :: [B7.d = 220 nm]
+Nov 5, 2020, 5:14:19 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:14:19 AM: 
+Nov 5, 2020, 5:14:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:14:37 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:15:13 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:16:14 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:18:38 AM: 
+Nov 5, 2020, 5:19:38 AM: :: [B7.d = 230 nm]
+Nov 5, 2020, 5:19:38 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:19:38 AM: 
+Nov 5, 2020, 5:19:38 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:20:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:21:41 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:24:11 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:24:29 AM: 
+Nov 5, 2020, 5:24:55 AM: :: [B7.d = 240 nm]
+Nov 5, 2020, 5:24:55 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:24:55 AM: 
+Nov 5, 2020, 5:24:55 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:26:34 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:26:37 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:29:34 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:29:49 AM: 
+Nov 5, 2020, 5:30:10 AM: :: [B7.d = 250 nm]
+Nov 5, 2020, 5:30:11 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:30:11 AM: 
+Nov 5, 2020, 5:30:11 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:31:49 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:32:48 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:33:03 AM: 
+Nov 5, 2020, 5:35:27 AM: :: [B7.d = 260 nm]
+Nov 5, 2020, 5:35:28 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:35:28 AM: 
+Nov 5, 2020, 5:35:28 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:35:31 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:35:35 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:36:43 AM: 
+Nov 5, 2020, 5:40:43 AM: :: [B7.d = 270 nm]
+Nov 5, 2020, 5:40:43 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:40:43 AM: 
+Nov 5, 2020, 5:40:43 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:43:44 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:45:19 AM: 
+Nov 5, 2020, 5:45:58 AM: :: [B7.d = 280 nm]
+Nov 5, 2020, 5:45:58 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:45:58 AM: 
+Nov 5, 2020, 5:45:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:46:48 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:46:50 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:50:01 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.92	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	23.95	(3.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	58.08	(8.4)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	80.42	(11.7)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.87	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	21.97	(3.2)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	103.48	(15.0)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	69.95	(10.1)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.84	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	20.20	(2.9)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	137.64	(20.0)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	62.18	(9.0)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.82	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	18.73	(2.7)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	162.96	(23.6)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	56.45	(8.2)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.80	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	17.47	(2.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	181.59	(26.3)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	51.91	(7.5)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.79	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	16.43	(2.4)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	195.00	(28.3)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	48.34	(7.0)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.78	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	15.57	(2.3)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	204.48	(29.6)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	45.46	(6.6)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.77	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	14.84	(2.2)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	211.05	(30.6)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	43.06	(6.2)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.77	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	14.21	(2.1)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	215.56	(31.2)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	41.12	(6.0)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.77	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	13.64	(2.0)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	218.69	(31.7)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	39.67	(5.8)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.76	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	13.09	(1.9)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	220.84	(32.0)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	38.53	(5.6)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.76	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	12.55	(1.8)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	222.45	(32.2)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	37.77	(5.5)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.76	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	12.01	(1.7)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	223.72	(32.4)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	37.21	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.76	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	11.49	(1.7)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	224.83	(32.6)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.93	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.76	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	11.01	(1.6)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	225.87	(32.7)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.86	(5.3)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.76	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.60	(1.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	226.77	(32.9)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.82	(5.3)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.29	(1.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	227.68	(33.0)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.88	(5.3)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.07	(1.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	228.62	(33.1)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.94	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	9.95	(1.4)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	229.60	(33.3)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	37.00	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	9.92	(1.4)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	230.63	(33.4)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	37.03	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	9.98	(1.4)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	231.69	(33.6)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	37.06	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.09	(1.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	232.77	(33.7)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	37.02	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.25	(1.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	233.81	(33.9)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.93	(5.4)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.44	(1.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	234.81	(34.0)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.78	(5.3)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.64	(1.5)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	235.73	(34.2)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.57	(5.3)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	236.56	(34.3)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.31	(5.3)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	11.07	(1.6)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	237.38	(34.4)
+Nov 5, 2020, 5:51:14 AM: 	[Ag]:	36.05	(5.2)
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 5:51:14 AM: 	-----------------------------
+Nov 5, 2020, 5:51:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 5:51:14 AM: 	[ITO]:	11.28	(1.6)
+Nov 5, 2020, 5:51:14 AM: 	[B7]:	238.22	(34.5)
+Nov 5, 2020, 5:51:14 AM: 	[A
+Nov 5, 2020, 5:51:14 AM: :: [B7.d = 290 nm]
+Nov 5, 2020, 5:51:14 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:51:14 AM: 
+Nov 5, 2020, 5:51:14 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:52:18 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:52:20 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:53:20 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:53:27 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:55:40 AM: 
+Nov 5, 2020, 5:56:26 AM: :: [B7.d = 300 nm]
+Nov 5, 2020, 5:56:26 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:56:26 AM: 
+Nov 5, 2020, 5:56:26 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:56:49 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:59:05 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:00:43 AM: 
+Nov 5, 2020, 6:01:38 AM: :: [B7.d = 310 nm]
+Nov 5, 2020, 6:01:38 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:01:38 AM: 
+Nov 5, 2020, 6:01:38 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:03:13 AM: 
+Nov 5, 2020, 6:06:54 AM: :: [B7.d = 320 nm]
+Nov 5, 2020, 6:06:54 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:06:54 AM: 
+Nov 5, 2020, 6:06:54 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:09:50 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:10:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:11:24 AM: 
+Nov 5, 2020, 6:12:07 AM: :: [B7.d = 330 nm]
+Nov 5, 2020, 6:12:07 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:12:07 AM: 
+Nov 5, 2020, 6:12:07 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:16:07 AM: 
+Nov 5, 2020, 6:17:17 AM: :: [B7.d = 340 nm]
+Nov 5, 2020, 6:17:17 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:17:17 AM: 
+Nov 5, 2020, 6:17:17 AM: 
+Nov 5, 2020, 6:22:27 AM: :: [B7.d = 350 nm]
+Nov 5, 2020, 6:22:28 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:22:28 AM: 
+Nov 5, 2020, 6:22:28 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:24:37 AM: 
+Nov 5, 2020, 6:27:36 AM: :: [B7.d = 360 nm]
+Nov 5, 2020, 6:27:36 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:27:36 AM: 
+Nov 5, 2020, 6:27:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:28:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:29:16 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:30:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:32:43 AM: 
+Nov 5, 2020, 6:32:45 AM: :: [B7.d = 370 nm]
+Nov 5, 2020, 6:32:45 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:32:45 AM: 
+Nov 5, 2020, 6:32:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:33:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:34:40 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:35:22 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:37:06 AM: 
+Nov 5, 2020, 6:37:51 AM: :: [B7.d = 380 nm]
+Nov 5, 2020, 6:37:51 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:37:51 AM: 
+Nov 5, 2020, 6:37:51 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:40:06 AM: 
+Nov 5, 2020, 6:42:58 AM: :: [B7.d = 390 nm]
+Nov 5, 2020, 6:42:59 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:42:59 AM: 
+Nov 5, 2020, 6:42:59 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:44:16 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:44:48 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:45:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:46:51 AM: 
+Nov 5, 2020, 6:48:08 AM: :: [B7.d = 400 nm]
+Nov 5, 2020, 6:48:08 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:48:08 AM: 
+Nov 5, 2020, 6:48:08 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:48:59 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:49:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:49:48 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:51:46 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:52:32 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:52:42 AM: 
+Nov 5, 2020, 6:53:13 AM: :: [B7.d = 410 nm]
+Nov 5, 2020, 6:53:13 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:53:13 AM: 
+Nov 5, 2020, 6:53:13 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:54:01 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:54:57 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:56:57 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:58:00 AM: 
+Nov 5, 2020, 6:58:22 AM: :: [B7.d = 420 nm]
+Nov 5, 2020, 6:58:22 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:58:22 AM: 
+Nov 5, 2020, 6:58:22 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:00:31 AM: 
+Nov 5, 2020, 7:03:25 AM: :: [B7.d = 430 nm]
+Nov 5, 2020, 7:03:25 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:03:25 AM: 
+Nov 5, 2020, 7:03:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:05:06 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:05:18 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:06:15 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:07:07 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:07:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:07:45 AM: 
+Nov 5, 2020, 7:08:28 AM: :: [B7.d = 440 nm]
+Nov 5, 2020, 7:08:28 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:08:28 AM: 
+Nov 5, 2020, 7:08:28 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:09:10 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:09:18 AM: 
+Nov 5, 2020, 7:13:34 AM: :: [B7.d = 450 nm]
+Nov 5, 2020, 7:13:35 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:13:35 AM: 
+Nov 5, 2020, 7:13:35 AM: 
+Nov 5, 2020, 7:18:38 AM: :: [B7.d = 460 nm]
+Nov 5, 2020, 7:18:38 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:18:38 AM: 
+Nov 5, 2020, 7:18:38 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:19:03 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:21:20 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:22:28 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:23:12 AM: 
+Nov 5, 2020, 7:23:35 AM: :: [B7.d = 470 nm]
+Nov 5, 2020, 7:23:35 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:23:35 AM: 
+Nov 5, 2020, 7:23:35 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:25:09 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:25:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:27:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:27:49 AM: 
+Nov 5, 2020, 7:28:39 AM: :: [B7.d = 480 nm]
+Nov 5, 2020, 7:28:40 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:28:40 AM: 
+Nov 5, 2020, 7:28:40 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:31:37 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:33:15 AM: 
+Nov 5, 2020, 7:33:35 AM: :: [B7.d = 490 nm]
+Nov 5, 2020, 7:33:36 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:33:36 AM: 
+Nov 5, 2020, 7:33:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:33:53 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:36:53 AM: 
+Nov 5, 2020, 7:38:29 AM: :: [B7.d = 500 nm]
+Nov 5, 2020, 7:38:29 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:38:29 AM: 
+Nov 5, 2020, 7:38:29 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:41:50 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:43:09 AM: 
+Nov 5, 2020, 7:43:22 AM: :: [B7.d = 510 nm]
+Nov 5, 2020, 7:43:22 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:43:22 AM: 
+Nov 5, 2020, 7:43:22 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:44:34 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:44:52 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:45:44 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:46:30 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:48:16 AM: 
+Nov 5, 2020, 7:48:16 AM: :: [B7.d = 520 nm]
+Nov 5, 2020, 7:48:17 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:48:17 AM: 
+Nov 5, 2020, 7:48:17 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:48:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:49:53 AM: 
+Nov 5, 2020, 7:53:04 AM: :: [B7.d = 530 nm]
+Nov 5, 2020, 7:53:04 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:53:04 AM: 
+Nov 5, 2020, 7:53:04 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:54:29 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:54:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:55:41 AM: 
+Nov 5, 2020, 7:57:55 AM: :: [B7.d = 540 nm]
+Nov 5, 2020, 7:57:55 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 7:57:55 AM: 
+Nov 5, 2020, 7:57:56 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 7:58:53 AM: 
+Nov 5, 2020, 8:02:45 AM: :: [B7.d = 550 nm]
+Nov 5, 2020, 8:02:46 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:02:46 AM: 
+Nov 5, 2020, 8:02:46 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:04:26 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:06:20 AM: 
+Nov 5, 2020, 8:07:30 AM: :: [B7.d = 560 nm]
+Nov 5, 2020, 8:07:30 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:07:30 AM: 
+Nov 5, 2020, 8:07:30 AM: g]:	35.72	(5.2)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.47	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	239.00	(34.6)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	35.36	(5.1)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.63	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	239.74	(34.8)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	34.95	(5.1)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.77	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	240.42	(34.9)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	34.56	(5.0)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.89	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	241.12	(35.0)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	34.24	(5.0)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.98	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	241.71	(35.0)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	33.91	(4.9)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	12.03	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	242.26	(35.1)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	33.59	(4.9)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	12.06	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	242.75	(35.2)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	33.32	(4.8)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	12.07	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	243.20	(35.3)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	33.09	(4.8)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	12.04	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	243.65	(35.3)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	32.86	(4.8)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	12.00	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	244.08	(35.4)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	32.68	(4.7)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.94	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	244.51	(35.4)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	32.50	(4.7)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.88	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	244.96	(35.5)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	32.34	(4.7)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.80	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	245.44	(35.6)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	32.23	(4.7)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.72	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	245.93	(35.7)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	32.12	(4.7)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.63	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	246.40	(35.7)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.98	(4.6)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.54	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	246.90	(35.8)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.88	(4.6)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.42	(1.7)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	247.44	(35.9)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.74	(4.6)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.32	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	247.95	(35.9)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.64	(4.6)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.21	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	248.43	(36.0)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.56	(4.6)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.10	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	248.91	(36.1)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.46	(4.6)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	11.00	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	249.34	(36.1)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.35	(4.5)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	10.92	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	249.80	(36.2)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.31	(4.5)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	250.28	(36.3)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.29	(4.5)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	10.81	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	250.65	(36.3)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.25	(4.5)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	10.77	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	251.06	(36.4)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.24	(4.5)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	10.77	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	251.47	(36.5)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.28	(4.5)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	10.79	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7]:	251.82	(36.5)
+Nov 5, 2020, 8:12:14 AM: 	[Ag]:	31.30	(4.5)
+Nov 5, 2020, 8:12:14 AM: 
+Nov 5, 2020, 8:12:14 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 8:12:14 AM: 	-----------------------------
+Nov 5, 2020, 8:12:14 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 8:12:14 AM: 	[ITO]:	10.82	(1.6)
+Nov 5, 2020, 8:12:14 AM: 	[B7
+Nov 5, 2020, 8:12:14 AM: :: [B7.d = 570 nm]
+Nov 5, 2020, 8:12:15 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:12:15 AM: 
+Nov 5, 2020, 8:12:15 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:15:47 AM: 
+Nov 5, 2020, 8:16:55 AM: :: [B7.d = 580 nm]
+Nov 5, 2020, 8:16:55 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:16:55 AM: 
+Nov 5, 2020, 8:16:55 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:20:07 AM: 
+Nov 5, 2020, 8:21:39 AM: :: [B7.d = 590 nm]
+Nov 5, 2020, 8:21:40 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:21:40 AM: 
+Nov 5, 2020, 8:21:40 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:25:40 AM: 
+Nov 5, 2020, 8:26:22 AM: :: [B7.d = 600 nm]
+Nov 5, 2020, 8:26:23 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:26:23 AM: 
+Nov 5, 2020, 8:26:23 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:27:34 AM: 
+Nov 5, 2020, 8:31:03 AM: :: [B7.d = 610 nm]
+Nov 5, 2020, 8:31:03 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:31:03 AM: 
+Nov 5, 2020, 8:31:03 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:32:17 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:32:31 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:33:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:34:04 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:34:23 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:35:28 AM: 
+Nov 5, 2020, 8:35:46 AM: :: [B7.d = 620 nm]
+Nov 5, 2020, 8:35:47 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:35:47 AM: 
+Nov 5, 2020, 8:35:47 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:37:17 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:38:00 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:40:23 AM: 
+Nov 5, 2020, 8:40:28 AM: :: [B7.d = 630 nm]
+Nov 5, 2020, 8:40:28 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:40:28 AM: 
+Nov 5, 2020, 8:40:28 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:41:55 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:42:42 AM: 
+Nov 5, 2020, 8:45:10 AM: :: [B7.d = 640 nm]
+Nov 5, 2020, 8:45:10 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:45:10 AM: 
+Nov 5, 2020, 8:45:10 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:46:50 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:48:42 AM: 
+Nov 5, 2020, 8:49:51 AM: :: [B7.d = 650 nm]
+Nov 5, 2020, 8:49:51 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:49:51 AM: 
+Nov 5, 2020, 8:49:51 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:50:02 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:52:01 AM: 
+Nov 5, 2020, 8:54:33 AM: :: [B7.d = 660 nm]
+Nov 5, 2020, 8:54:33 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:54:33 AM: 
+Nov 5, 2020, 8:54:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:55:09 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:55:41 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:55:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:56:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:56:40 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:57:50 AM: 
+Nov 5, 2020, 8:59:08 AM: :: [B7.d = 670 nm]
+Nov 5, 2020, 8:59:08 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 8:59:08 AM: 
+Nov 5, 2020, 8:59:08 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 8:59:20 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:00:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:01:12 AM: 
+Nov 5, 2020, 9:03:42 AM: :: [B7.d = 680 nm]
+Nov 5, 2020, 9:03:43 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:03:43 AM: 
+Nov 5, 2020, 9:03:43 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:04:06 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:05:01 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:05:22 AM: 
+Nov 5, 2020, 9:08:14 AM: :: [B7.d = 690 nm]
+Nov 5, 2020, 9:08:14 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:08:14 AM: 
+Nov 5, 2020, 9:08:14 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:08:48 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:11:12 AM: 
+Nov 5, 2020, 9:12:44 AM: :: [B7.d = 700 nm]
+Nov 5, 2020, 9:12:45 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:12:45 AM: 
+Nov 5, 2020, 9:12:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:13:37 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:16:07 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:16:58 AM: 
+Nov 5, 2020, 9:17:15 AM: :: [B7.d = 710 nm]
+Nov 5, 2020, 9:17:15 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:17:15 AM: 
+Nov 5, 2020, 9:17:15 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:18:27 AM: 
+Nov 5, 2020, 9:21:44 AM: :: [B7.d = 720 nm]
+Nov 5, 2020, 9:21:45 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:21:45 AM: 
+Nov 5, 2020, 9:21:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:22:09 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:22:27 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:23:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:23:51 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:24:46 AM: 
+Nov 5, 2020, 9:26:14 AM: :: [B7.d = 730 nm]
+Nov 5, 2020, 9:26:15 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:26:15 AM: 
+Nov 5, 2020, 9:26:15 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:26:34 AM: 
+Nov 5, 2020, 9:30:40 AM: :: [B7.d = 740 nm]
+Nov 5, 2020, 9:30:40 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:30:40 AM: 
+Nov 5, 2020, 9:30:40 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:32:07 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:33:41 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:34:34 AM: 
+Nov 5, 2020, 9:35:09 AM: :: [B7.d = 750 nm]
+Nov 5, 2020, 9:35:09 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:35:09 AM: 
+Nov 5, 2020, 9:35:09 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:35:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:36:14 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:36:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:39:31 AM: 
+Nov 5, 2020, 9:39:32 AM: :: [B7.d = 760 nm]
+Nov 5, 2020, 9:39:33 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:39:33 AM: 
+Nov 5, 2020, 9:39:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:41:49 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:42:01 AM: 
+Nov 5, 2020, 9:43:57 AM: :: [B7.d = 770 nm]
+Nov 5, 2020, 9:43:58 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:43:58 AM: 
+Nov 5, 2020, 9:43:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:45:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:45:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:45:38 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:46:40 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:47:34 AM: 
+Nov 5, 2020, 9:48:25 AM: :: [B7.d = 780 nm]
+Nov 5, 2020, 9:48:25 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:48:25 AM: 
+Nov 5, 2020, 9:48:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:48:54 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:51:52 AM: 
+Nov 5, 2020, 9:52:46 AM: :: [B7.d = 790 nm]
+Nov 5, 2020, 9:52:46 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:52:46 AM: 
+Nov 5, 2020, 9:52:46 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:53:16 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:54:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 9:54:43 AM: 
+Nov 5, 2020, 9:57:09 AM: :: [B7.d = 800 nm]
+Nov 5, 2020, 9:57:09 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 9:57:09 AM: 
+Nov 5, 2020, 9:57:09 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:00:55 AM: 
+Nov 5, 2020, 10:01:33 AM: :: [B7.d = 810 nm]
+Nov 5, 2020, 10:01:33 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:01:33 AM: 
+Nov 5, 2020, 10:01:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:01:54 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:03:42 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:03:48 AM: 
+Nov 5, 2020, 10:05:55 AM: :: [B7.d = 820 nm]
+Nov 5, 2020, 10:05:56 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:05:56 AM: 
+Nov 5, 2020, 10:05:56 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:06:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:07:47 AM: 
+Nov 5, 2020, 10:10:24 AM: :: [B7.d = 830 nm]
+Nov 5, 2020, 10:10:25 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:10:25 AM: 
+Nov 5, 2020, 10:10:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:11:42 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:11:52 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:11:54 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:14:21 AM: 
+Nov 5, 2020, 10:14:50 AM: :: [B7.d = 840 nm]
+Nov 5, 2020, 10:14:50 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:14:50 AM: 
+Nov 5, 2020, 10:14:50 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:16:45 AM: ]:	252.19	(36.6)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.34	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.87	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	252.53	(36.6)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.37	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.92	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	252.84	(36.7)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.35	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.99	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	253.17	(36.7)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.33	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.06	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	253.50	(36.7)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.30	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.14	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	253.88	(36.8)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.28	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.22	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	254.20	(36.9)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.22	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.29	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	254.56	(36.9)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.13	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.35	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	254.95	(37.0)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	31.04	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.39	(1.7)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	255.27	(37.0)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	30.86	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.42	(1.7)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	255.65	(37.1)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	30.74	(4.5)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.44	(1.7)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	255.99	(37.1)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	30.60	(4.4)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.43	(1.7)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	256.32	(37.2)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	30.42	(4.4)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.41	(1.7)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	256.65	(37.2)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	30.26	(4.4)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.38	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	256.96	(37.2)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	30.08	(4.4)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.34	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	257.28	(37.3)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.96	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.28	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	257.59	(37.3)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.83	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.23	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	257.90	(37.4)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.75	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.18	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	258.20	(37.4)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.67	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.12	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	258.57	(37.5)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.61	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.08	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	258.90	(37.5)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.61	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	11.03	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	259.21	(37.6)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.59	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.99	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	259.51	(37.6)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.55	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.97	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	259.89	(37.7)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.60	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.93	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	260.17	(37.7)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.54	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.92	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	260.46	(37.8)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.55	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.91	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	260.74	(37.8)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.53	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[ITO]:	10.90	(1.6)
+Nov 5, 2020, 10:19:15 AM: 	[B7]:	261.04	(37.8)
+Nov 5, 2020, 10:19:15 AM: 	[Ag]:	29.50	(4.3)
+Nov 5, 2020, 10:19:15 AM: 
+Nov 5, 2020, 10:19:15 AM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 10:19:15 AM: 	-----------------------------
+Nov 5, 2020, 10:19:15 AM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 10:19:15 AM: 	[IT
+Nov 5, 2020, 10:19:15 AM: :: [B7.d = 850 nm]
+Nov 5, 2020, 10:19:16 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:19:16 AM: 
+Nov 5, 2020, 10:19:16 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:19:51 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:22:29 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:22:39 AM: 
+Nov 5, 2020, 10:23:40 AM: :: [B7.d = 860 nm]
+Nov 5, 2020, 10:23:41 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:23:41 AM: 
+Nov 5, 2020, 10:23:41 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:25:45 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:26:16 AM: 
+Nov 5, 2020, 10:28:05 AM: :: [B7.d = 870 nm]
+Nov 5, 2020, 10:28:06 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:28:06 AM: 
+Nov 5, 2020, 10:28:06 AM: 
+Nov 5, 2020, 10:32:30 AM: :: [B7.d = 880 nm]
+Nov 5, 2020, 10:32:30 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:32:30 AM: 
+Nov 5, 2020, 10:32:31 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:32:35 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:34:15 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:35:56 AM: 
+Nov 5, 2020, 10:36:55 AM: :: [B7.d = 890 nm]
+Nov 5, 2020, 10:36:56 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:36:56 AM: 
+Nov 5, 2020, 10:36:56 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:37:10 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:38:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:39:47 AM: 
+Nov 5, 2020, 10:41:20 AM: :: [B7.d = 900 nm]
+Nov 5, 2020, 10:41:21 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:41:21 AM: 
+Nov 5, 2020, 10:41:21 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:42:00 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:42:39 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:43:41 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:45:16 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:45:44 AM: 
+Nov 5, 2020, 10:45:47 AM: :: [B7.d = 910 nm]
+Nov 5, 2020, 10:45:47 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:45:47 AM: 
+Nov 5, 2020, 10:45:47 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:46:34 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:47:26 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:49:01 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:49:31 AM: 
+Nov 5, 2020, 10:50:09 AM: :: [B7.d = 920 nm]
+Nov 5, 2020, 10:50:10 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:50:10 AM: 
+Nov 5, 2020, 10:50:10 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:53:15 AM: 
+Nov 5, 2020, 10:54:34 AM: :: [B7.d = 930 nm]
+Nov 5, 2020, 10:54:34 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:54:34 AM: 
+Nov 5, 2020, 10:54:34 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:58:33 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:58:43 AM: 
+Nov 5, 2020, 10:58:57 AM: :: [B7.d = 940 nm]
+Nov 5, 2020, 10:58:57 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 10:58:57 AM: 
+Nov 5, 2020, 10:58:57 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 10:59:47 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:02:50 AM: 
+Nov 5, 2020, 11:03:20 AM: :: [B7.d = 950 nm]
+Nov 5, 2020, 11:03:20 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:03:20 AM: 
+Nov 5, 2020, 11:03:20 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:04:36 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:04:38 AM: 
+Nov 5, 2020, 11:07:38 AM: :: [B7.d = 960 nm]
+Nov 5, 2020, 11:07:39 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:07:39 AM: 
+Nov 5, 2020, 11:07:39 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:07:46 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:08:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:10:00 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:10:21 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:10:42 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:11:26 AM: 
+Nov 5, 2020, 11:11:58 AM: :: [B7.d = 970 nm]
+Nov 5, 2020, 11:11:58 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:11:58 AM: 
+Nov 5, 2020, 11:11:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:12:51 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:13:02 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:13:21 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:13:38 AM: 
+Nov 5, 2020, 11:16:17 AM: :: [B7.d = 980 nm]
+Nov 5, 2020, 11:16:17 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:16:17 AM: 
+Nov 5, 2020, 11:16:17 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:16:38 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:17:04 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:18:25 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:18:48 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:18:54 AM: 
+Nov 5, 2020, 11:20:36 AM: :: [B7.d = 990 nm]
+Nov 5, 2020, 11:20:37 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:20:37 AM: 
+Nov 5, 2020, 11:20:37 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:22:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:22:31 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:23:48 AM: 
+Nov 5, 2020, 11:25:02 AM: :: [B7.d = 1000 nm]
+Nov 5, 2020, 11:25:02 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:25:02 AM: 
+Nov 5, 2020, 11:25:02 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:25:28 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:28:00 AM: 
+Nov 5, 2020, 11:29:22 AM: :: [B7.d = 1010 nm]
+Nov 5, 2020, 11:29:23 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:29:23 AM: 
+Nov 5, 2020, 11:29:23 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:31:47 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:33:09 AM: 
+Nov 5, 2020, 11:33:42 AM: :: [B7.d = 1020 nm]
+Nov 5, 2020, 11:33:42 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:33:42 AM: 
+Nov 5, 2020, 11:33:42 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:36:29 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:36:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:37:17 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:37:32 AM: 
+Nov 5, 2020, 11:38:00 AM: :: [B7.d = 1030 nm]
+Nov 5, 2020, 11:38:01 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:38:01 AM: 
+Nov 5, 2020, 11:38:01 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:38:54 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:38:58 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:39:31 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:41:19 AM: 
+Nov 5, 2020, 11:42:18 AM: :: [B7.d = 1040 nm]
+Nov 5, 2020, 11:42:18 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:42:18 AM: 
+Nov 5, 2020, 11:42:18 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:42:19 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:43:08 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:43:51 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:44:00 AM: 
+Nov 5, 2020, 11:46:38 AM: :: [B7.d = 1050 nm]
+Nov 5, 2020, 11:46:39 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:46:39 AM: 
+Nov 5, 2020, 11:46:39 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:47:06 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:49:31 AM: 
+Nov 5, 2020, 11:51:02 AM: :: [B7.d = 1060 nm]
+Nov 5, 2020, 11:51:02 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:51:02 AM: 
+Nov 5, 2020, 11:51:02 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:52:32 AM: 
+Nov 5, 2020, 11:55:22 AM: :: [B7.d = 1070 nm]
+Nov 5, 2020, 11:55:22 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:55:22 AM: 
+Nov 5, 2020, 11:55:22 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:57:22 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:58:03 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:58:12 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 11:58:27 AM: 
+Nov 5, 2020, 11:59:42 AM: :: [B7.d = 1080 nm]
+Nov 5, 2020, 11:59:42 AM: :: MultiLayerOptics calculation
+Nov 5, 2020, 11:59:42 AM: 
+Nov 5, 2020, 11:59:42 AM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:00:08 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:01:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:01:28 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:03:16 PM: 
+Nov 5, 2020, 12:04:04 PM: :: [B7.d = 1090 nm]
+Nov 5, 2020, 12:04:04 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:04:04 PM: 
+Nov 5, 2020, 12:04:04 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:06:56 PM: 
+Nov 5, 2020, 12:08:25 PM: :: [B7.d = 1100 nm]
+Nov 5, 2020, 12:08:26 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:08:26 PM: 
+Nov 5, 2020, 12:08:26 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:08:44 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:08:56 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:09:12 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:09:28 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:10:04 PM: 
+Nov 5, 2020, 12:12:42 PM: :: [B7.d = 1110 nm]
+Nov 5, 2020, 12:12:42 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:12:42 PM: 
+Nov 5, 2020, 12:12:42 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:13:34 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:15:25 PM: 
+Nov 5, 2020, 12:17:03 PM: :: [B7.d = 1120 nm]
+Nov 5, 2020, 12:17:03 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:17:03 PM: 
+Nov 5, 2020, 12:17:04 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:17:29 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:17:38 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:19:25 PM: O]:	10.91	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	261.37	(37.9)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.51	(4.3)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.93	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	261.67	(37.9)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.50	(4.3)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.94	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	261.99	(38.0)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.47	(4.3)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.96	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	262.28	(38.0)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.42	(4.3)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.98	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	262.58	(38.1)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.40	(4.3)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.01	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	262.87	(38.1)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.38	(4.3)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.04	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	263.18	(38.2)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.36	(4.3)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.05	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	263.44	(38.2)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.30	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.08	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	263.69	(38.2)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.27	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.10	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	263.97	(38.3)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.23	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.11	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	264.22	(38.3)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.18	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.12	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	264.47	(38.3)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.13	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.13	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	264.74	(38.4)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.08	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.12	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	264.98	(38.4)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	29.03	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.11	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	265.26	(38.5)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.97	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.11	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	265.55	(38.5)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.93	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.08	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	265.83	(38.5)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.83	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.07	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	266.09	(38.6)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.79	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.03	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	266.32	(38.6)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.71	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	11.01	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	266.54	(38.6)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.66	(4.2)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.98	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	266.86	(38.7)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.61	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.95	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	267.14	(38.7)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.55	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.92	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	267.39	(38.8)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.49	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.90	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	267.62	(38.8)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.43	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.88	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	267.84	(38.8)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.38	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.87	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	268.17	(38.9)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.38	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	268.44	(38.9)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.33	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 12:21:24 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 12:21:24 PM: 	[B7]:	268.71	(39.0)
+Nov 5, 2020, 12:21:24 PM: 	[Ag]:	28.30	(4.1)
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 12:21:24 PM: 	-----------------------------
+Nov 5, 2020, 12:21:24 PM: 	[Gla
+Nov 5, 2020, 12:21:24 PM: :: [B7.d = 1130 nm]
+Nov 5, 2020, 12:21:24 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:21:24 PM: 
+Nov 5, 2020, 12:21:24 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:22:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:22:53 PM: 
+Nov 5, 2020, 12:25:49 PM: :: [B7.d = 1140 nm]
+Nov 5, 2020, 12:25:49 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:25:49 PM: 
+Nov 5, 2020, 12:25:49 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:26:33 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:28:08 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:29:52 PM: 
+Nov 5, 2020, 12:30:11 PM: :: [B7.d = 1150 nm]
+Nov 5, 2020, 12:30:12 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:30:12 PM: 
+Nov 5, 2020, 12:30:12 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:30:20 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:31:03 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:31:19 PM: 
+Nov 5, 2020, 12:34:32 PM: :: [B7.d = 1160 nm]
+Nov 5, 2020, 12:34:32 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:34:32 PM: 
+Nov 5, 2020, 12:34:32 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:35:57 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:36:56 PM: 
+Nov 5, 2020, 12:38:54 PM: :: [B7.d = 1170 nm]
+Nov 5, 2020, 12:38:55 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:38:55 PM: 
+Nov 5, 2020, 12:38:55 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:41:40 PM: 
+Nov 5, 2020, 12:43:17 PM: :: [B7.d = 1180 nm]
+Nov 5, 2020, 12:43:17 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:43:17 PM: 
+Nov 5, 2020, 12:43:17 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:44:29 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:46:50 PM: 
+Nov 5, 2020, 12:47:36 PM: :: [B7.d = 1190 nm]
+Nov 5, 2020, 12:47:36 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:47:36 PM: 
+Nov 5, 2020, 12:47:36 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:47:46 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:48:10 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:48:31 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:51:51 PM: 
+Nov 5, 2020, 12:51:56 PM: :: [B7.d = 1200 nm]
+Nov 5, 2020, 12:51:56 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:51:56 PM: 
+Nov 5, 2020, 12:51:56 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:52:49 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:52:54 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:56:00 PM: 
+Nov 5, 2020, 12:56:19 PM: :: [B7.d = 1210 nm]
+Nov 5, 2020, 12:56:19 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 12:56:19 PM: 
+Nov 5, 2020, 12:56:19 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:56:49 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:56:50 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 12:58:36 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:00:05 PM: 
+Nov 5, 2020, 1:00:41 PM: :: [B7.d = 1220 nm]
+Nov 5, 2020, 1:00:42 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:00:42 PM: 
+Nov 5, 2020, 1:00:42 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:00:52 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:02:27 PM: 
+Nov 5, 2020, 1:05:05 PM: :: [B7.d = 1230 nm]
+Nov 5, 2020, 1:05:06 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:05:06 PM: 
+Nov 5, 2020, 1:05:06 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:06:22 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:06:35 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:06:47 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:08:39 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:08:47 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:09:08 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:09:16 PM: 
+Nov 5, 2020, 1:09:27 PM: :: [B7.d = 1240 nm]
+Nov 5, 2020, 1:09:28 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:09:28 PM: 
+Nov 5, 2020, 1:09:28 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:10:43 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:11:00 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:11:17 PM: 
+Nov 5, 2020, 1:13:54 PM: :: [B7.d = 1250 nm]
+Nov 5, 2020, 1:13:54 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:13:54 PM: 
+Nov 5, 2020, 1:13:54 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:14:33 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:15:16 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:17:38 PM: 
+Nov 5, 2020, 1:18:17 PM: :: [B7.d = 1260 nm]
+Nov 5, 2020, 1:18:18 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:18:18 PM: 
+Nov 5, 2020, 1:18:18 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:18:57 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:19:51 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:22:39 PM: 
+Nov 5, 2020, 1:22:40 PM: :: [B7.d = 1270 nm]
+Nov 5, 2020, 1:22:40 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:22:40 PM: 
+Nov 5, 2020, 1:22:41 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:23:05 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:23:46 PM: 
+Nov 5, 2020, 1:27:08 PM: :: [B7.d = 1280 nm]
+Nov 5, 2020, 1:27:09 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:27:09 PM: 
+Nov 5, 2020, 1:27:09 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:28:01 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:30:13 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:30:32 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:30:41 PM: 
+Nov 5, 2020, 1:31:35 PM: :: [B7.d = 1290 nm]
+Nov 5, 2020, 1:31:36 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:31:36 PM: 
+Nov 5, 2020, 1:31:36 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:33:24 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:34:24 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:35:53 PM: 
+Nov 5, 2020, 1:36:00 PM: :: [B7.d = 1300 nm]
+Nov 5, 2020, 1:36:00 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:36:00 PM: 
+Nov 5, 2020, 1:36:00 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:37:00 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:37:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:37:43 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:37:46 PM: 
+Nov 5, 2020, 1:40:23 PM: :: [B7.d = 1310 nm]
+Nov 5, 2020, 1:40:23 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:40:23 PM: 
+Nov 5, 2020, 1:40:23 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:42:26 PM: 
+Nov 5, 2020, 1:44:46 PM: :: [B7.d = 1320 nm]
+Nov 5, 2020, 1:44:47 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:44:47 PM: 
+Nov 5, 2020, 1:44:47 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:45:23 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:46:39 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:47:38 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:48:35 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:48:47 PM: 
+Nov 5, 2020, 1:49:10 PM: :: [B7.d = 1330 nm]
+Nov 5, 2020, 1:49:11 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:49:11 PM: 
+Nov 5, 2020, 1:49:11 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:50:11 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:50:36 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:50:58 PM: 
+Nov 5, 2020, 1:53:33 PM: :: [B7.d = 1340 nm]
+Nov 5, 2020, 1:53:34 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:53:34 PM: 
+Nov 5, 2020, 1:53:34 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:53:34 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:55:49 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:56:37 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:57:42 PM: 
+Nov 5, 2020, 1:57:56 PM: :: [B7.d = 1350 nm]
+Nov 5, 2020, 1:57:57 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 1:57:57 PM: 
+Nov 5, 2020, 1:57:57 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:59:16 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 1:59:19 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:00:56 PM: 
+Nov 5, 2020, 2:02:16 PM: :: [B7.d = 1360 nm]
+Nov 5, 2020, 2:02:16 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:02:16 PM: 
+Nov 5, 2020, 2:02:17 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:03:00 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:04:13 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:05:52 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:06:30 PM: 
+Nov 5, 2020, 2:06:32 PM: :: [B7.d = 1370 nm]
+Nov 5, 2020, 2:06:33 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:06:33 PM: 
+Nov 5, 2020, 2:06:33 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:06:52 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:07:26 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:07:33 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:09:18 PM: 
+Nov 5, 2020, 2:10:52 PM: :: [B7.d = 1380 nm]
+Nov 5, 2020, 2:10:52 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:10:52 PM: 
+Nov 5, 2020, 2:10:52 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:12:16 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:14:23 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:14:43 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:14:46 PM: 
+Nov 5, 2020, 2:15:15 PM: :: [B7.d = 1390 nm]
+Nov 5, 2020, 2:15:16 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:15:16 PM: 
+Nov 5, 2020, 2:15:16 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:16:14 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:19:15 PM: 
+Nov 5, 2020, 2:19:36 PM: :: [B7.d = 1400 nm]
+Nov 5, 2020, 2:19:37 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:19:37 PM: 
+Nov 5, 2020, 2:19:37 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:22:48 PM: ss]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	268.92	(39.0)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.27	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.84	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	269.16	(39.0)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.23	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	269.44	(39.1)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.24	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	269.69	(39.1)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.20	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	269.93	(39.1)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.16	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	270.18	(39.2)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.13	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	270.44	(39.2)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.10	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	270.68	(39.2)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.08	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	270.86	(39.3)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	28.01	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	271.09	(39.3)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.97	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	271.34	(39.3)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.95	(4.1)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	271.63	(39.4)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.93	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	271.90	(39.4)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.87	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	272.19	(39.5)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.88	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	272.38	(39.5)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.81	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.87	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	272.56	(39.5)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.79	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	272.78	(39.5)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.74	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.87	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	273.04	(39.6)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.72	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.87	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	273.34	(39.6)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.69	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	273.58	(39.7)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.65	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	273.77	(39.7)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.60	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.86	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	273.99	(39.7)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.58	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	274.19	(39.7)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.54	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	274.38	(39.8)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.50	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	274.64	(39.8)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.47	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.85	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	274.87	(39.8)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.46	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.84	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	275.05	(39.9)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.42	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	-----------------------------
+Nov 5, 2020, 2:24:02 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 2:24:02 PM: 	[ITO]:	10.84	(1.6)
+Nov 5, 2020, 2:24:02 PM: 	[B7]:	275.24	(39.9)
+Nov 5, 2020, 2:24:02 PM: 	[Ag]:	27.39	(4.0)
+Nov 5, 2020, 2:24:02 PM: 
+Nov 5, 2020, 2:24:02 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 2:24:02 PM: 	---------------
+Nov 5, 2020, 2:24:02 PM: :: [B7.d = 1410 nm]
+Nov 5, 2020, 2:24:03 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:24:03 PM: 
+Nov 5, 2020, 2:24:03 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:26:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:26:17 PM: 
+Nov 5, 2020, 2:28:27 PM: :: [B7.d = 1420 nm]
+Nov 5, 2020, 2:28:28 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:28:28 PM: 
+Nov 5, 2020, 2:28:28 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:32:37 PM: 
+Nov 5, 2020, 2:32:52 PM: :: [B7.d = 1430 nm]
+Nov 5, 2020, 2:32:52 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:32:52 PM: 
+Nov 5, 2020, 2:32:52 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:33:07 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:33:23 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:33:28 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:34:47 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:35:08 PM: 
+Nov 5, 2020, 2:37:11 PM: :: [B7.d = 1440 nm]
+Nov 5, 2020, 2:37:12 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:37:12 PM: 
+Nov 5, 2020, 2:37:12 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:37:14 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:37:15 PM: 
+Nov 5, 2020, 2:41:30 PM: :: [B7.d = 1450 nm]
+Nov 5, 2020, 2:41:31 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:41:31 PM: 
+Nov 5, 2020, 2:41:31 PM: 
+Nov 5, 2020, 2:45:44 PM: :: [B7.d = 1460 nm]
+Nov 5, 2020, 2:45:45 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:45:45 PM: 
+Nov 5, 2020, 2:45:45 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:46:20 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:46:48 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:46:57 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:49:44 PM: 
+Nov 5, 2020, 2:50:11 PM: :: [B7.d = 1470 nm]
+Nov 5, 2020, 2:50:12 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:50:12 PM: 
+Nov 5, 2020, 2:50:12 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:51:02 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:51:13 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:52:58 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:53:05 PM: 
+Nov 5, 2020, 2:54:29 PM: :: [B7.d = 1480 nm]
+Nov 5, 2020, 2:54:29 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:54:29 PM: 
+Nov 5, 2020, 2:54:29 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:55:17 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:55:21 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:56:04 PM: 
+Nov 5, 2020, 2:58:47 PM: :: [B7.d = 1490 nm]
+Nov 5, 2020, 2:58:48 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 2:58:48 PM: 
+Nov 5, 2020, 2:58:48 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:59:10 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 2:59:50 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:00:09 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:02:38 PM: 
+Nov 5, 2020, 3:03:05 PM: :: [B7.d = 1500 nm]
+Nov 5, 2020, 3:03:06 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:03:06 PM: 
+Nov 5, 2020, 3:03:06 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:06:40 PM: 
+Nov 5, 2020, 3:07:22 PM: :: [B7.d = 1510 nm]
+Nov 5, 2020, 3:07:22 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:07:22 PM: 
+Nov 5, 2020, 3:07:23 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:07:28 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:08:17 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:08:54 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:10:04 PM: 
+Nov 5, 2020, 3:11:44 PM: :: [B7.d = 1520 nm]
+Nov 5, 2020, 3:11:44 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:11:44 PM: 
+Nov 5, 2020, 3:11:44 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:13:07 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:14:13 PM: 
+Nov 5, 2020, 3:16:04 PM: :: [B7.d = 1530 nm]
+Nov 5, 2020, 3:16:04 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:16:04 PM: 
+Nov 5, 2020, 3:16:04 PM: 
+Nov 5, 2020, 3:20:27 PM: :: [B7.d = 1540 nm]
+Nov 5, 2020, 3:20:27 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:20:27 PM: 
+Nov 5, 2020, 3:20:27 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:20:50 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:23:57 PM: 
+Nov 5, 2020, 3:24:50 PM: :: [B7.d = 1550 nm]
+Nov 5, 2020, 3:24:50 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:24:50 PM: 
+Nov 5, 2020, 3:24:50 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:26:11 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:26:36 PM: 
+Nov 5, 2020, 3:29:12 PM: :: [B7.d = 1560 nm]
+Nov 5, 2020, 3:29:13 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:29:13 PM: 
+Nov 5, 2020, 3:29:13 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:31:23 PM: 
+Nov 5, 2020, 3:33:32 PM: :: [B7.d = 1570 nm]
+Nov 5, 2020, 3:33:32 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:33:32 PM: 
+Nov 5, 2020, 3:33:32 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:33:44 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:34:25 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:35:00 PM: 
+Nov 5, 2020, 3:37:49 PM: :: [B7.d = 1580 nm]
+Nov 5, 2020, 3:37:50 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:37:50 PM: 
+Nov 5, 2020, 3:37:50 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:40:28 PM: 
+Nov 5, 2020, 3:42:07 PM: :: [B7.d = 1590 nm]
+Nov 5, 2020, 3:42:08 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:42:08 PM: 
+Nov 5, 2020, 3:42:08 PM: 
+Nov 5, 2020, 3:46:26 PM: :: [B7.d = 1600 nm]
+Nov 5, 2020, 3:46:26 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:46:26 PM: 
+Nov 5, 2020, 3:46:26 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:46:30 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:48:05 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:48:31 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:50:13 PM: 
+Nov 5, 2020, 3:50:46 PM: :: [B7.d = 1610 nm]
+Nov 5, 2020, 3:50:46 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:50:46 PM: 
+Nov 5, 2020, 3:50:47 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:51:01 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:51:07 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:52:09 PM: 
+Nov 5, 2020, 3:55:08 PM: :: [B7.d = 1620 nm]
+Nov 5, 2020, 3:55:09 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:55:09 PM: 
+Nov 5, 2020, 3:55:09 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 3:58:30 PM: 
+Nov 5, 2020, 3:59:30 PM: :: [B7.d = 1630 nm]
+Nov 5, 2020, 3:59:31 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 3:59:31 PM: 
+Nov 5, 2020, 3:59:31 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:00:40 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:00:58 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:02:25 PM: 
+Nov 5, 2020, 4:03:53 PM: :: [B7.d = 1640 nm]
+Nov 5, 2020, 4:03:53 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:03:53 PM: 
+Nov 5, 2020, 4:03:53 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:04:08 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:04:56 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:05:08 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:05:10 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:06:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:08:03 PM: 
+Nov 5, 2020, 4:08:14 PM: :: [B7.d = 1650 nm]
+Nov 5, 2020, 4:08:14 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:08:14 PM: 
+Nov 5, 2020, 4:08:14 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:09:16 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:09:41 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:10:38 PM: 
+Nov 5, 2020, 4:12:34 PM: :: [B7.d = 1660 nm]
+Nov 5, 2020, 4:12:34 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:12:34 PM: 
+Nov 5, 2020, 4:12:34 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:13:10 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:13:28 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:13:38 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:14:32 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:14:33 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:15:42 PM: 
+Nov 5, 2020, 4:16:54 PM: :: [B7.d = 1670 nm]
+Nov 5, 2020, 4:16:55 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:16:55 PM: 
+Nov 5, 2020, 4:16:55 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:19:10 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:19:26 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:19:26 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:19:46 PM: 
+Nov 5, 2020, 4:21:15 PM: :: [B7.d = 1680 nm]
+Nov 5, 2020, 4:21:15 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:21:15 PM: 
+Nov 5, 2020, 4:21:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:22:00 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:22:48 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:24:06 PM: --------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.83	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	275.49	(39.9)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.34	(4.0)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.83	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	275.73	(40.0)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.30	(4.0)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.82	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	276.01	(40.0)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.27	(4.0)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.81	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	276.21	(40.0)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.22	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.81	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	276.41	(40.1)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.19	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.79	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	276.54	(40.1)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.14	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.78	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	276.77	(40.1)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.11	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.76	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	277.02	(40.2)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.07	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.76	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	277.32	(40.2)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.06	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.75	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	277.58	(40.2)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.04	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.74	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	277.80	(40.3)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	27.03	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.72	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	277.96	(40.3)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.95	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.72	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	278.15	(40.3)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.94	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	278.32	(40.3)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.91	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	278.54	(40.4)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.90	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	278.75	(40.4)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.84	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	279.09	(40.5)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.84	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	279.39	(40.5)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.82	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.70	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	279.48	(40.5)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.73	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.70	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	279.59	(40.5)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.69	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.70	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	279.74	(40.6)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.68	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.70	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	279.97	(40.6)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.65	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	280.22	(40.6)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.64	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	280.47	(40.7)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.64	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	280.69	(40.7)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.61	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	280.89	(40.7)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.58	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.72	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	281.13	(40.8)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.57	(3.9)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 4:25:38 PM: 	-----------------------------
+Nov 5, 2020, 4:25:38 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 4:25:38 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 4:25:38 PM: 	[B7]:	281.23	(40.8)
+Nov 5, 2020, 4:25:38 PM: 	[Ag]:	26.51	(3.8)
+Nov 5, 2020, 4:25:38 PM: 
+Nov 5, 2020, 4:25:38 PM: 	Layer:	I_sc [A/m2]	(optEff [%
+Nov 5, 2020, 4:25:38 PM: :: [B7.d = 1690 nm]
+Nov 5, 2020, 4:25:39 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:25:39 PM: 
+Nov 5, 2020, 4:25:39 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:26:08 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:27:31 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:28:26 PM: 
+Nov 5, 2020, 4:29:53 PM: :: [B7.d = 1700 nm]
+Nov 5, 2020, 4:29:54 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:29:54 PM: 
+Nov 5, 2020, 4:29:54 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:30:45 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:33:12 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:33:38 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:33:48 PM: 
+Nov 5, 2020, 4:34:09 PM: :: [B7.d = 1710 nm]
+Nov 5, 2020, 4:34:10 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:34:10 PM: 
+Nov 5, 2020, 4:34:10 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:35:27 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:35:45 PM: 
+Nov 5, 2020, 4:38:28 PM: :: [B7.d = 1720 nm]
+Nov 5, 2020, 4:38:29 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:38:29 PM: 
+Nov 5, 2020, 4:38:29 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:40:21 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:40:38 PM: 
+Nov 5, 2020, 4:42:44 PM: :: [B7.d = 1730 nm]
+Nov 5, 2020, 4:42:45 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:42:45 PM: 
+Nov 5, 2020, 4:42:45 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:44:45 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:45:31 PM: 
+Nov 5, 2020, 4:47:07 PM: :: [B7.d = 1740 nm]
+Nov 5, 2020, 4:47:07 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:47:07 PM: 
+Nov 5, 2020, 4:47:07 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:50:08 PM: 
+Nov 5, 2020, 4:51:29 PM: :: [B7.d = 1750 nm]
+Nov 5, 2020, 4:51:29 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:51:29 PM: 
+Nov 5, 2020, 4:51:29 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:54:45 PM: 
+Nov 5, 2020, 4:55:52 PM: :: [B7.d = 1760 nm]
+Nov 5, 2020, 4:55:53 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 4:55:53 PM: 
+Nov 5, 2020, 4:55:53 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:57:05 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 4:57:29 PM: 
+Nov 5, 2020, 5:00:15 PM: :: [B7.d = 1770 nm]
+Nov 5, 2020, 5:00:15 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:00:15 PM: 
+Nov 5, 2020, 5:00:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:00:53 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:01:13 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:01:49 PM: 
+Nov 5, 2020, 5:04:38 PM: :: [B7.d = 1780 nm]
+Nov 5, 2020, 5:04:39 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:04:39 PM: 
+Nov 5, 2020, 5:04:39 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:05:20 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:07:30 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:07:48 PM: 
+Nov 5, 2020, 5:08:59 PM: :: [B7.d = 1790 nm]
+Nov 5, 2020, 5:09:00 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:09:00 PM: 
+Nov 5, 2020, 5:09:00 PM: 
+Nov 5, 2020, 5:13:20 PM: :: [B7.d = 1800 nm]
+Nov 5, 2020, 5:13:20 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:13:20 PM: 
+Nov 5, 2020, 5:13:20 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:13:36 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:13:59 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:14:03 PM: 
+Nov 5, 2020, 5:17:40 PM: :: [B7.d = 1810 nm]
+Nov 5, 2020, 5:17:40 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:17:40 PM: 
+Nov 5, 2020, 5:17:40 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:18:38 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:19:02 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:21:54 PM: 
+Nov 5, 2020, 5:21:55 PM: :: [B7.d = 1820 nm]
+Nov 5, 2020, 5:21:56 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:21:56 PM: 
+Nov 5, 2020, 5:21:56 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:22:27 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:23:24 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:23:35 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:24:18 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:26:06 PM: 
+Nov 5, 2020, 5:26:13 PM: :: [B7.d = 1830 nm]
+Nov 5, 2020, 5:26:14 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:26:14 PM: 
+Nov 5, 2020, 5:26:14 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:26:48 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:27:12 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:27:17 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:28:38 PM: 
+Nov 5, 2020, 5:30:31 PM: :: [B7.d = 1840 nm]
+Nov 5, 2020, 5:30:32 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:30:32 PM: 
+Nov 5, 2020, 5:30:32 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:31:38 PM: 
+Nov 5, 2020, 5:34:56 PM: :: [B7.d = 1850 nm]
+Nov 5, 2020, 5:34:57 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:34:57 PM: 
+Nov 5, 2020, 5:34:57 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:35:59 PM: 
+Nov 5, 2020, 5:39:15 PM: :: [B7.d = 1860 nm]
+Nov 5, 2020, 5:39:16 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:39:16 PM: 
+Nov 5, 2020, 5:39:16 PM: 
+Nov 5, 2020, 5:43:34 PM: :: [B7.d = 1870 nm]
+Nov 5, 2020, 5:43:34 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:43:34 PM: 
+Nov 5, 2020, 5:43:34 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:45:57 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:46:37 PM: 
+Nov 5, 2020, 5:47:58 PM: :: [B7.d = 1880 nm]
+Nov 5, 2020, 5:47:59 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:47:59 PM: 
+Nov 5, 2020, 5:47:59 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:48:22 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:48:58 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:49:41 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:49:54 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:52:08 PM: 
+Nov 5, 2020, 5:52:22 PM: :: [B7.d = 1890 nm]
+Nov 5, 2020, 5:52:22 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:52:22 PM: 
+Nov 5, 2020, 5:52:22 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:54:35 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:56:45 PM: 
+Nov 5, 2020, 5:56:45 PM: :: [B7.d = 1900 nm]
+Nov 5, 2020, 5:56:45 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 5:56:45 PM: 
+Nov 5, 2020, 5:56:45 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 5:57:51 PM: 
+Nov 5, 2020, 6:01:09 PM: :: [B7.d = 1910 nm]
+Nov 5, 2020, 6:01:09 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:01:09 PM: 
+Nov 5, 2020, 6:01:09 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:02:25 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:03:17 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:04:18 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:04:25 PM: 
+Nov 5, 2020, 6:05:33 PM: :: [B7.d = 1920 nm]
+Nov 5, 2020, 6:05:33 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:05:33 PM: 
+Nov 5, 2020, 6:05:33 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:05:58 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:06:34 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:07:11 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:09:39 PM: 
+Nov 5, 2020, 6:09:56 PM: :: [B7.d = 1930 nm]
+Nov 5, 2020, 6:09:56 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:09:56 PM: 
+Nov 5, 2020, 6:09:56 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:10:20 PM: 
+Nov 5, 2020, 6:14:15 PM: :: [B7.d = 1940 nm]
+Nov 5, 2020, 6:14:15 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:14:15 PM: 
+Nov 5, 2020, 6:14:15 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:16:06 PM: 
+Nov 5, 2020, 6:18:38 PM: :: [B7.d = 1950 nm]
+Nov 5, 2020, 6:18:39 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:18:39 PM: 
+Nov 5, 2020, 6:18:39 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:18:47 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:19:31 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:19:50 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:19:55 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:20:07 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:21:56 PM: 
+Nov 5, 2020, 6:22:57 PM: :: [B7.d = 1960 nm]
+Nov 5, 2020, 6:22:57 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:22:57 PM: 
+Nov 5, 2020, 6:22:57 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:24:06 PM: ]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	281.41	(40.8)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.49	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.71	(1.6)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	281.58	(40.8)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.46	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.72	(1.6)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	281.85	(40.9)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.47	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.70	(1.6)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	282.02	(40.9)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.41	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.69	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	282.19	(40.9)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.37	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.68	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	282.42	(40.9)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.33	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.67	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	282.66	(41.0)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.29	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.66	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	282.90	(41.0)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.24	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.65	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	283.09	(41.0)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.20	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.64	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	283.19	(41.1)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.16	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.63	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	283.29	(41.1)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.11	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.63	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	283.41	(41.1)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.07	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.63	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	283.66	(41.1)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.08	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.62	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	283.91	(41.2)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.04	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.64	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	284.30	(41.2)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.08	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.64	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	284.51	(41.2)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	26.07	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.63	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	284.58	(41.3)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.98	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.62	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	284.70	(41.3)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.95	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.63	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	284.88	(41.3)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.94	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.64	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	285.17	(41.3)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.94	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.64	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	285.43	(41.4)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.93	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.63	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	285.51	(41.4)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.87	(3.8)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.62	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	285.71	(41.4)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.84	(3.7)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.62	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	285.90	(41.4)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.84	(3.7)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.62	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	286.02	(41.5)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.80	(3.7)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.61	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	286.24	(41.5)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.78	(3.7)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.61	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	286.41	(41.5)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.77	(3.7)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:27:13 PM: 	-----------------------------
+Nov 5, 2020, 6:27:13 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:27:13 PM: 	[ITO]:	10.61	(1.5)
+Nov 5, 2020, 6:27:13 PM: 	[B7]:	286.57	(41.5)
+Nov 5, 2020, 6:27:13 PM: 	[Ag]:	25.74	(3.7)
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: 	Layer:	I_
+Nov 5, 2020, 6:27:13 PM: :: [B7.d = 1970 nm]
+Nov 5, 2020, 6:27:13 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:27:13 PM: 
+Nov 5, 2020, 6:27:13 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:27:43 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:30:52 PM: 
+Nov 5, 2020, 6:31:33 PM: :: [B7.d = 1980 nm]
+Nov 5, 2020, 6:31:33 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:31:33 PM: 
+Nov 5, 2020, 6:31:33 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:32:44 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:33:02 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:34:09 PM: 
+Nov 5, 2020, 6:35:52 PM: :: [B7.d = 1990 nm]
+Nov 5, 2020, 6:35:52 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:35:52 PM: 
+Nov 5, 2020, 6:35:52 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:37:14 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:38:30 PM: 
+Nov 5, 2020, 6:40:11 PM: :: [B7.d = 2000 nm]
+Nov 5, 2020, 6:40:11 PM: :: MultiLayerOptics calculation
+Nov 5, 2020, 6:40:11 PM: 
+Nov 5, 2020, 6:40:11 PM: BAD RAYS DETECTED!
+Nov 5, 2020, 6:43:18 PM: 
+Nov 5, 2020, 6:44:33 PM: 
+Nov 5, 2020, 6:44:33 PM: ::***************************************************************************::
+Nov 5, 2020, 6:44:33 PM: :: Process simulation results
+Nov 5, 2020, 6:44:33 PM: ::***************************************************************************::
+Nov 5, 2020, 6:44:33 PM: 
+Nov 5, 2020, 6:44:41 PM: 
+Nov 5, 2020, 6:44:41 PM: error: no command processor available - [<runtime error>]
+Nov 5, 2020, 6:44:41 PM: error: processing results
+Nov 5, 2020, 6:44:41 PM: 
+Nov 5, 2020, 6:44:41 PM: sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:44:41 PM: 	-----------------------------
+Nov 5, 2020, 6:44:41 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:44:41 PM: 	[ITO]:	10.61	(1.5)
+Nov 5, 2020, 6:44:41 PM: 	[B7]:	286.75	(41.6)
+Nov 5, 2020, 6:44:41 PM: 	[Ag]:	25.71	(3.7)
+Nov 5, 2020, 6:44:41 PM: 
+Nov 5, 2020, 6:44:41 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:44:41 PM: 	-----------------------------
+Nov 5, 2020, 6:44:41 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:44:41 PM: 	[ITO]:	10.61	(1.5)
+Nov 5, 2020, 6:44:41 PM: 	[B7]:	287.01	(41.6)
+Nov 5, 2020, 6:44:41 PM: 	[Ag]:	25.68	(3.7)
+Nov 5, 2020, 6:44:41 PM: 
+Nov 5, 2020, 6:44:41 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:44:41 PM: 	-----------------------------
+Nov 5, 2020, 6:44:41 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:44:41 PM: 	[ITO]:	10.61	(1.5)
+Nov 5, 2020, 6:44:41 PM: 	[B7]:	287.25	(41.6)
+Nov 5, 2020, 6:44:41 PM: 	[Ag]:	25.68	(3.7)
+Nov 5, 2020, 6:44:41 PM: 
+Nov 5, 2020, 6:44:41 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:44:41 PM: 	-----------------------------
+Nov 5, 2020, 6:44:41 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:44:41 PM: 	[ITO]:	10.61	(1.5)
+Nov 5, 2020, 6:44:41 PM: 	[B7]:	287.49	(41.7)
+Nov 5, 2020, 6:44:41 PM: 	[Ag]:	25.66	(3.7)
+Nov 5, 2020, 6:44:41 PM: 
+Nov 5, 2020, 6:44:41 PM: 	Layer:	I_sc [A/m2]	(optEff [%]) 
+Nov 5, 2020, 6:44:41 PM: 	-----------------------------
+Nov 5, 2020, 6:44:41 PM: 	[Glass]:	1.75	(0.3)
+Nov 5, 2020, 6:44:41 PM: 	[ITO]:	10.59	(1.5)
+Nov 5, 2020, 6:44:41 PM: 	[B7]:	287.62	(41.7)
+Nov 5, 2020, 6:44:41 PM: 	[Ag]:	25.62	(3.7)
+Nov 5, 2020, 6:44:41 PM: 
