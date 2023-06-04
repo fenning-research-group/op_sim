@@ -7,4 +7,4 @@ This repo is dedicated to the pipeline design and operation of FDTD (Lumerical) 
 
 ### Demo of FDTD Results
 
-![top view](images/FDTD_demo.png)
+![top view](images/FDTD_demo_0.png)
