@@ -1,5 +1,5 @@
 # op_sim
-Optical Simulation of Metal Halide Perovskites
+Optical Simulation of Metal Halide Perovskite Photovoltaics
 
 ## Motivation
 
